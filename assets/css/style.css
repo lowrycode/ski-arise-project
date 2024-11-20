@@ -1,6 +1,12 @@
+/* Import fonts here */
 
 
-/* General Styles */
+/* General */
 section {
     border: 1px solid black;
+}
+
+/* Navbar */
+#nav-logo {
+    width: 150px;
 }
