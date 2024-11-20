@@ -29,44 +29,66 @@
     <!-- Header -->
     <header>
         <!-- Navbar -->
-        <nav class="navbar bg-dark navbar-expand-lg"
-        data-bs-theme="dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="assets/images/brand-logo.png" alt="Ski Arise brand logo" id="nav-logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item me-auto">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">All Packages</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Info</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="btn btn-primary" href="#">Book Your Holiday</a>
-                    </li>
-                </ul>
+        <nav class="navbar bg-dark navbar-expand-lg" data-bs-theme="dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/images/brand-logo.png" alt="Ski Arise brand logo" id="nav-logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item me-auto">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">All Packages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Info</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-primary" href="#">Book Your Holiday</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+
+        <!-- Hidden title (to help with SEO) -->
+        <h1 class="hidden">SkiArise | Great Quality Ski Package Holidays</h1>
+
     </header>
 
     <!-- Main -->
     <main>
         <!-- Hero Section -->
-        <section id="hero">Hero</section>
+        <section id="hero">
+
+            <!-- Background Video / Image edited from
+				- video by Jorgelina Delmagro from Pixabay: https://pixabay.com/videos/ski-snow-holiday-nature-sunset-186843/
+				- image by Andreas from Pixabay: https://pixabay.com/photos/winter-ski-to-ski-ski-school-skier-4066634/ 
+			-->
+
+            <!-- Hero video (tablets and larger screen sizes) -->
+            <video id="hero-video" src="assets/videos/hero-video.mp4" aria-hidden="true" muted autoplay></video>
+
+            <!-- Hero image (mobile devices and as fallback) -->
+            <img id="hero-image" src="assets/images/hero-image.jpg"
+                alt="An idyllic winter scene with skiers, a chairlift and snow-topped mountains">
+
+            <!-- Hero overlay -->
+            <div id="hero-overlay">
+                <h1>SkiArise</h1>
+                <p>Wake up in your dream location</p>
+            </div>
+        </section>
 
         <!-- Popular Packages Section-->
         <section id="popular-packages">Popular Packages</section>
