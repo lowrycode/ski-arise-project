@@ -34,6 +34,29 @@ section {
     color: goldenrod;
 }
 
+.list-with-ticks {
+    list-style-type: none;
+    padding-left: 1.5em;
+}
+
+.list-with-ticks li::before {
+    content: "✓";
+    color: green;
+    font-weight: bold;
+    margin-right: 0.5em;
+}
+
+.included-list {
+    list-style-type: none;
+    /* Remove default bullets */
+    padding-left: 1.2em;
+    /* Add some left padding */
+}
+
+i {
+    margin-right: 10px;
+}
+
 /* Navbar */
 #nav-logo {
     width: 150px;
@@ -91,6 +114,14 @@ section {
 .slopes-logo-key {
     width: 115px;
 }
+
+.slopes-logo-package {
+    width: 50px;
+}
+
+
+
+
 
 /* Media Queries */
 
