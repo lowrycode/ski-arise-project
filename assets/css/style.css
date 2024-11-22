@@ -10,9 +10,13 @@ body {
     margin-top: var(--bs-navbar-height)
 }
 
-section {
-    border: 1px solid black;
+dt {
+    font-weight: normal;
 }
+
+/* section {
+    border: 1px solid black;
+} */
 
 .hidden {
     display: none;
@@ -117,6 +121,10 @@ i {
 
 .slopes-logo-package {
     width: 50px;
+}
+
+.flight-table th {
+    font-weight: normal;
 }
 
 .flight-table td {
