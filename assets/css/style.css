@@ -34,10 +34,24 @@ dt {
     color: red;
 }
 
-.text-gold {
-    color: goldenrod;
+/* Icons */
+i {
+    margin-right: 10px;
 }
 
+.fa-face-grimace {
+    color: green;
+}
+
+.fa-face-smile {
+    color: blue;
+}
+
+.fa-face-grin-stars {
+    color: red;
+}
+
+/* Lists */
 .list-with-ticks {
     list-style-type: none;
     padding-left: 1.5em;
@@ -57,9 +71,6 @@ dt {
     /* Add some left padding */
 }
 
-i {
-    margin-right: 10px;
-}
 
 /* Navbar */
 #nav-logo {
