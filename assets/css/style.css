@@ -4,6 +4,7 @@
 /* GENERAL / MULTI-PAGE */
 :root {
     --bs-navbar-height: 70px;
+    scroll-padding-top: 100px;
 }
 
 body {
