@@ -116,6 +116,14 @@ i {
 /* Popular Packages Section */
 .package-image-container {
     position: relative;
+    /* object-fit: cover; */
+    padding: 0;
+}
+
+.package-image-container img:first-child {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
 }
 
 .slopes-logo-overlay {
