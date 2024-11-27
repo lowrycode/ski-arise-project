@@ -34,6 +34,10 @@ dt {
     color: red;
 }
 
+.text-gold {
+    color: goldenrod;
+}
+
 /* Icons */
 i {
     margin-right: 10px;
