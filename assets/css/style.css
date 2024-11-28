@@ -143,6 +143,20 @@ i {
     max-height: 110px;
 }
 
+/* Testimonials section */
+.carousel .carousel-control-prev,
+.carousel .carousel-control-next,
+.carousel .carousel-indicators {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.carousel:hover .carousel-control-prev,
+.carousel:hover .carousel-control-next,
+.carousel:hover .carousel-indicators {
+  opacity: 1;
+}
+
 /* ALL PACKAGES PAGE */
 .slopes-logo-key {
     width: 115px;
