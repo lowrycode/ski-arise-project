@@ -138,6 +138,11 @@ i {
     width: 50px;
 }
 
+/* About section */
+.awards img {
+    max-height: 110px;
+}
+
 /* ALL PACKAGES PAGE */
 .slopes-logo-key {
     width: 115px;
