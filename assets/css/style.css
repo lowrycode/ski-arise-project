@@ -15,6 +15,10 @@ dt {
     font-weight: normal;
 }
 
+.cta-button {
+    width: 160px;
+}
+
 /* section {
     border: 1px solid black;
 } */
@@ -141,7 +145,6 @@ i {
 /* About section */
 .awards img {
     max-width: 95px;
-    /* display: block; */
 }
 
 /* Testimonials section */
