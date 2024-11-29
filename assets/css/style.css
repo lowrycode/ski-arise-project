@@ -7,8 +7,16 @@
     scroll-padding-top: 100px;
 }
 
+main {
+    margin-top: var(--bs-navbar-height);
+}
+
 body {
-    margin-top: var(--bs-navbar-height)
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+
 }
 
 dt {
@@ -151,14 +159,14 @@ i {
 .carousel .carousel-control-prev,
 .carousel .carousel-control-next,
 .carousel .carousel-indicators {
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
 }
 
 .carousel:hover .carousel-control-prev,
 .carousel:hover .carousel-control-next,
 .carousel:hover .carousel-indicators {
-  opacity: 1;
+    opacity: 1;
 }
 
 /* Contact section */
@@ -221,8 +229,6 @@ i {
     padding-left: 10px;
     padding: 0px 0px 0px 10px;
 }
-
-
 
 
 /* Media Queries */
