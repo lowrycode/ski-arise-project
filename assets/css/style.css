@@ -140,7 +140,8 @@ i {
 
 /* About section */
 .awards img {
-    max-height: 110px;
+    max-width: 95px;
+    /* display: block; */
 }
 
 /* Testimonials section */
@@ -163,9 +164,11 @@ i {
     font-size: 1.5rem;
 }
 
-#img-shop {
-    max-height: 290px;
+.image-container img {
+    object-fit: cover;
+    height: 100%;
 }
+
 
 /* ALL PACKAGES PAGE */
 .slopes-logo-key {
