@@ -1,3 +1,4 @@
 - Optimise images and video for web (used https://pixelied.com/convert to convert images to webp)
 - Check use of fallback image with hero video (currently behind)
 - Make quick reference icons accessible for those with screen readers
+- check form data using DevTools (Network tab - Doc)
