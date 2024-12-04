@@ -7,9 +7,9 @@
     --bs-navbar-height: 70px;
     scroll-padding-top: 100px;
     /* Colours */
-    --dark-primary: #0e4b89;
+    --dark-primary: #0a3866;
     --dark-secondary: #005078;
-    --dark-tertiary: #0284c4;
+    --dark-tertiary: #79c6ec;
     --light-primary: #ffffff;
     --light-secondary: #eef3fa;
 }
@@ -41,7 +41,14 @@ h2 {
     font-style: normal;
 }
 
-h3,
+h3 {
+    color: var(--dark-primary);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
 h4,
 h5,
 h6 {
@@ -391,6 +398,10 @@ i {
 
     #info-accommodation .card {
         height: 610px;
+    }
+
+    #info-slopes .info-box {
+        height: 340px
     }
 }
 
