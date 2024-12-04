@@ -60,16 +60,12 @@ dt {
     width: 160px;
 }
 
-/* section {
-    border: 1px solid black;
-} */
-
 .hidden {
     display: none;
 }
 
-/* Removes from document model on mobile screens */
 .custom-md-hidden {
+    /* Removes from document model on mobile screens */
     display: none;
 }
 
@@ -140,11 +136,26 @@ i {
     /* Add some left padding */
 }
 
-
 /* Navbar */
 #nav-logo {
     width: 150px;
 }
+
+/* Contact section */
+#contact h2 {
+    color: var(--dark-tertiary);
+}
+
+.social-media a {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.image-container img {
+    object-fit: cover;
+    height: 100%;
+}
+
 
 /* HOMEPAGE */
 /* Hero section */
@@ -155,33 +166,46 @@ i {
 }
 
 #hero-video {
+    /* Don't show video on mobile devices */
+    display: none;
     position: absolute;
     width: 100%;
     height: 100%;
     object-fit: cover;
     z-index: -1;
-
 }
 
 #hero-image {
+    /* Show image on mobile devices */
     position: absolute;
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: 93%;
-    /* For mobile screens */
     z-index: -2;
 }
 
+@keyframes fadeInOverlay {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
 #hero-overlay {
+    opacity: 0;
     position: absolute;
     left: 10%;
     bottom: 5%;
-    right: 10%;
     /* Make centre on mobile devices */
+    right: 10%;
     color: white;
     background-color: rgba(0, 50, 90, 0.8);
     padding: 10px 20px;
+    animation: fadeInOverlay 2s ease-in-out forwards;
 }
 
 #hero-overlay p {
@@ -237,20 +261,6 @@ i {
     opacity: 1;
 }
 
-/* Contact section */
-#contact h2 {
-    color: var(--dark-tertiary);
-}
-
-.social-media a {
-    color: white;
-    font-size: 1.5rem;
-}
-
-.image-container img {
-    object-fit: cover;
-    height: 100%;
-}
 
 
 /* ALL PACKAGES PAGE */
@@ -345,9 +355,20 @@ i {
         height: 597px;
     }
 
+    #hero-video {
+        /* Show video on tablet and larger screens */
+        display: block;
+    }
+
+    #hero-image {
+        /* Don't show image on larger screens (use video instead) */
+        display: none;
+    }    
+
     #hero-overlay {
         /* Fit content on mobile and wider screens */
         right: auto;
+        animation-delay: 3s;
     }
 }
 
