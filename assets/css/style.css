@@ -7,9 +7,12 @@
     --bs-navbar-height: 70px;
     scroll-padding-top: 100px;
     /* Colours */
-    --dark-primary: #0a3866;
+    /* --dark-primary: #0a3866; */
+    --dark-primary: #053779;
     --dark-secondary: #005078;
-    --dark-tertiary: #79c6ec;
+    --dark-tertiary: #0173ac;
+    --mid-primary: #527688;
+    --mid-secondary: #79c6ec;
     --light-primary: #ffffff;
     --light-secondary: #eef3fa;
 }
@@ -63,9 +66,6 @@ dt {
     font-weight: normal;
 }
 
-.cta-button {
-    width: 160px;
-}
 
 .hidden {
     display: none;
@@ -143,6 +143,40 @@ i {
     /* Add some left padding */
 }
 
+/* Buttons */
+.cta-button {
+    width: 160px;
+    background-color: var(--dark-tertiary);
+    border: var(--dark-tertiary) 1px solid;
+    color: white;
+}
+
+.cta-button.disabled {
+    background-color: transparent;
+    border: var(--dark-tertiary) 1px solid;
+    color: white;
+    /* Override bootstrap default opacity (which affects fomt colour) */
+    opacity: 0.9;
+}
+
+.cta-button:hover {
+    background-color: var(--dark-secondary);
+    border: var(--dark-tertiary) 1px solid;
+    color: white;
+}
+
+.custom-button {
+    background-color: var(--mid-primary);
+    border: var(--mid-primary) 1px solid;
+    color: white;
+}
+
+.custom-button:hover {
+    background-color: var(--dark-tertiary);
+    border: var(--dark-tertiary) 1px solid;
+    color: white;
+}
+
 /* Navbar */
 #nav-logo {
     width: 150px;
@@ -150,11 +184,16 @@ i {
 
 /* Contact section */
 #contact h2 {
-    color: var(--dark-tertiary);
+    color: var(--mid-secondary);
 }
 
 .social-media a {
     color: white;
+    font-size: 1.5rem;
+}
+
+.social-media a:hover {
+    color: var(--mid-secondary);
     font-size: 1.5rem;
 }
 
