@@ -111,9 +111,7 @@ i {
     margin-right: 10px;
 }
 
-.fa-face-grimace {
-    color: green;
-}
+
 
 .fa-face-smile {
     color: blue;
@@ -316,6 +314,14 @@ i {
 
 .slopes-logo-package {
     width: 65px;
+}
+
+.icon-recommend-key {
+    width: 100px;
+}
+
+.icon-recommend-package {
+    width: 50px;
 }
 
 .img-resort {
