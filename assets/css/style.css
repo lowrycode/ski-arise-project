@@ -406,6 +406,10 @@ i {
     #info-accommodation .card {
         height: 597px;
     }
+    
+    #info-nightlife .card {
+        height: 370px;
+    }
 
     #hero-video {
         /* Show video on tablet and larger screens */
@@ -444,6 +448,10 @@ i {
     #info-accommodation .card {
         height: 610px;
     }
+    
+    #info-nightlife .card {
+        height: 400px;
+    }
 
     #info-slopes .info-box {
         height: 340px
@@ -471,4 +479,7 @@ i {
         height: 620px;
     }
 
+    #info-nightlife .card {
+        height: 470px;
+    }
 }
