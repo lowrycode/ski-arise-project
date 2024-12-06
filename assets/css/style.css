@@ -411,6 +411,10 @@ i {
         height: 370px;
     }
 
+    #info-snowboarding .card {
+        height: 420px;
+    }
+
     #hero-video {
         /* Show video on tablet and larger screens */
         display: block;
@@ -453,6 +457,10 @@ i {
         height: 400px;
     }
 
+    #info-snowboarding .card {
+        height: 420px;
+    }
+
     #info-slopes .info-box {
         height: 340px
     }
@@ -481,5 +489,9 @@ i {
 
     #info-nightlife .card {
         height: 470px;
+    }
+
+    #info-snowboarding .card {
+        height: 415px;
     }
 }
