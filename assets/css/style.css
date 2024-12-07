@@ -15,6 +15,7 @@
     --mid-secondary: #79c6ec;
     --light-primary: #ffffff;
     --light-secondary: #eef3fa;
+    --light-tertiary: #c2cddb;
 }
 
 main {
@@ -352,16 +353,67 @@ i {
     padding: 0px 0px 0px 10px;
 }
 
-/* Info Page */
+/* INFO PAGE */
 .slopes-logo-info {
     width: 80px;
 }
 
-/* #info-accommodation .card {
-    height: 597px;
-} */
+/* BOOKING AND ENQUIRY PAGES */
+.form-header {
+    position: relative;
+}
 
-/* Media Queries */
+.form-header .bg-img {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.4;
+}
+
+.custom-form legend {
+    color: var(--dark-secondary);
+}
+
+/* Borders for inputs */
+.custom-form input,
+.custom-form select,
+.custom-form textarea {
+    border-color: var(--light-tertiary);
+}
+
+/* Placeholder text colour for inputs and textarea */
+.custom-form input::placeholder,
+.custom-form textarea::placeholder {
+    color: var(--mid-primary);
+}
+
+/* Placeholder text colour for date input and select */
+.custom-form input, 
+.custom-form select {
+    color: var(--mid-primary);
+}
+
+/* Text Colour in select dropdown menus */
+.custom-form option {
+    color: var(--dark-secondary);
+}
+
+/* Text colour for inputs once filled in with valid value */
+.custom-form select:not(:invalid),
+.custom-form input:not(:invalid) {
+    color: black;
+}
+
+/* Send button */
+.custom-form button[type=submit] {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+/* MEDIA QUERIES */
 
 /* Tablet */
 @media screen and (min-width: 768px) {
