@@ -65,23 +65,26 @@
     <!-- Main -->
     <main>
         <!-- Enquiry header -->
-        <section id="enquiry-header" class="mt-5">
+        <section class="form-header py-4">
+            <!-- Background image -->
+            <img class="bg-img" src="assets/images/hero-image.webp"
+                alt="An idyllic winter scene with skiers, a chairlift and snow-topped mountains">
+            <!-- Main Heading and description -->
+            <h2 class="text-center mx-3 mb-4">Make an Enquiry</h2>
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-12 col-md-10 col-lg-8 col-xl-6">
-                        <h2 class="text-center mb-5">Make an Enquiry</h2>
-                        <p><em>Use this form to ask any general questions and we'll get back to you.</em></p>
+                    <div class="col-12 col-md-10 col-lg-8 col-xl-6 px-3 py-2 bg-light-primary">
+                        <p class="m-0"><em>Use this form to ask any general questions and we'll get back to you.</em></p>
                     </div>
                 </div>
             </div>
         </section>
-
         <!-- Enquiry form -->
-        <section id="enquiry-form" class="mb-5">
+        <section id="enquiry-form" class="py-4">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-10 col-lg-8 col-xl-6">
-                        <form action="success.html" method="get">
+                        <form action="success.html" method="get" class="custom-form">
                             <!-- Question -->
                             <div class="row mb-4">
                                 <label for="enquiry-question" class="col-12 col-form-label">Please write your question
@@ -91,6 +94,7 @@
                                         rows="6" required></textarea>
                                 </div>
                             </div>
+                            <!-- Contact Details -->
                             <fieldset>
                                 <legend class="hidden">Contact Details</legend>
                                 <!-- Name -->
@@ -153,10 +157,6 @@
                 </div>
             </div>
         </section>
-
-
-
-
     </main>
 
     <!-- Footer -->
