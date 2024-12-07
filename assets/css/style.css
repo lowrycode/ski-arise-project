@@ -90,18 +90,6 @@ dt {
 }
 
 /* Text colours */
-.text-green {
-    color: green;
-}
-
-.text-blue {
-    color: blue;
-}
-
-.text-red {
-    color: red;
-}
-
 .text-gold {
     color: goldenrod;
 }
@@ -309,7 +297,7 @@ i {
 
 /* ALL PACKAGES PAGE */
 .slopes-logo-key {
-    width: 115px;
+    width: 90px;
 }
 
 .slopes-logo-package {
@@ -317,7 +305,7 @@ i {
 }
 
 .icon-recommend-key {
-    width: 100px;
+    height: 60px;
 }
 
 .icon-recommend-package {
