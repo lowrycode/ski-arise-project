@@ -545,4 +545,9 @@ i {
     #info-snowboarding .card {
         height: 415px;
     }
+
+    /* Make popular cards same height when split into 2 columns */
+    .popular-card-main {
+        height: 250px;
+    }
 }
