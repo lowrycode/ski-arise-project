@@ -290,16 +290,16 @@ i {
 }
 
 /* Testimonials section */
-.carousel .carousel-control-prev,
-.carousel .carousel-control-next,
-.carousel .carousel-indicators {
+#testimonials .carousel .carousel-control-prev,
+#testimonials .carousel .carousel-control-next,
+#testimonials .carousel .carousel-indicators {
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
 }
 
-.carousel:hover .carousel-control-prev,
-.carousel:hover .carousel-control-next,
-.carousel:hover .carousel-indicators {
+#testimonials .carousel:hover .carousel-control-prev,
+#testimonials .carousel:hover .carousel-control-next,
+#testimonials .carousel:hover .carousel-indicators {
     opacity: 1;
 }
 
