@@ -5,7 +5,7 @@
 :root {
     /* Accounting for navbar */
     --bs-navbar-height: 70px;
-    scroll-padding-top: 100px;
+    scroll-padding-top: var(--bs-navbar-height);
     /* Colours */
     /* --dark-primary: #0a3866; */
     --dark-primary: #053779;
