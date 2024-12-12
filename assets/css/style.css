@@ -98,9 +98,10 @@ dt {
 /* Icons */
 i {
     margin-right: 10px;
+    /* This ensures vertical alignment of neighbouring text */
+    width: 20px;
+    text-align: center;
 }
-
-
 
 .fa-face-smile {
     color: blue;
@@ -128,9 +129,7 @@ i {
 
 .included-list {
     list-style-type: none;
-    /* Remove default bullets */
     padding-left: 1.2em;
-    /* Add some left padding */
 }
 
 /* Buttons */
