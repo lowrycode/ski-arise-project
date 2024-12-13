@@ -283,6 +283,15 @@ i {
     margin-bottom: 5px;
 }
 
+/* Learn More Section */
+#learn-more .card {
+    transition: transform 0.3s ease;
+}
+
+#learn-more .card:hover {
+    transform: scale(1.03);
+}
+
 /* About section */
 .awards img {
     max-width: 95px;
