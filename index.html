@@ -22,7 +22,6 @@
 
     <!-- Custom CSS (keep below Bootstrap CSS) -->
     <link rel="stylesheet" href="assets/css/style.css">
-
 </head>
 
 <body>
@@ -66,8 +65,7 @@
     <main>
         <!-- Hero Section -->
         <section id="hero">
-
-            <!-- Background Video / Image edited from
+            <!-- NOTE: Background Video / Image edited from
 				- video by Jorgelina Delmagro from Pixabay: https://pixabay.com/videos/ski-snow-holiday-nature-sunset-186843/
 				- image by Andreas from Pixabay: https://pixabay.com/photos/winter-ski-to-ski-ski-school-skier-4066634/ 
 			-->
@@ -89,7 +87,7 @@
 
         <!-- Popular Packages Section-->
         <section id="popular-packages" class="bg-light-primary py-5">
-            <section class="container">
+            <div class="container">
                 <!-- Heading, supporting description and Browse All Packages button-->
                 <h2 class="text-center py-4">Our Most Popular Package Holidays</h2>
                 <div class="row d-flex align-items-center">
@@ -108,14 +106,14 @@
                         <article class="card rounded-0 container-fluid">
                             <div class="row">
                                 <!-- Image -->
-                                <section
+                                <figure
                                     class="card-img-left img-fluid package-image-container col-12 col-md-4 col-lg-3 col-xl-4">
                                     <img src="assets/images/package-1/resort.webp" class="img-fluid"
                                         alt="Family photo at La Plagne ski resort">
                                     <img src="assets/images/logos-and-icons/slopes-logo-all.png"
                                         class="slopes-logo-overlay"
                                         alt="All types of slopes are available at this resort">
-                                </section>
+                                </figure>
                                 <!-- Main -->
                                 <section class="popular-card-main col-12 col-md-8 col-lg-6 col-xl-8 py-2 text-center text-md-start">
                                     <!-- Top -->
@@ -134,9 +132,11 @@
                                         <!-- Recommendations -->
                                         <section class="text-center">
                                             <div>Recommended for:</div>
-                                            <img src="assets/images/logos-and-icons/beginner.png" class="icon-recommend-popular" alt="Icon to recommend package for beginners" title="Beginners">
-                                            <img src="assets/images/logos-and-icons/intermediate.png" class="icon-recommend-popular" alt="Icon to recommend package for intermediates" title="Intermediates">
-                                            <img src="assets/images/logos-and-icons/family.png" class="icon-recommend-popular" alt="Icon to recommend package for families" title="Families">
+                                            <ul class="list-unstyled d-flex justify-content-center column-gap-1 flex-wrap">
+                                                <li><img src="assets/images/logos-and-icons/beginner.png" class="icon-recommend-popular" alt="Beginners" title="Beginners"></li>
+                                                <li><img src="assets/images/logos-and-icons/intermediate.png" class="icon-recommend-popular" alt="Intermediates" title="Intermediates"></li>
+                                                <li><img src="assets/images/logos-and-icons/family.png" class="icon-recommend-popular" alt="Families" title="Families"></li>
+                                            </ul>
                                         </section>
                                     </div>
                                     <!-- Description -->
@@ -175,14 +175,14 @@
                         <article class="card rounded-0 container-fluid">
                             <div class="row">
                                 <!-- Image -->
-                                <section
+                                <figure
                                     class="card-img-left img-fluid package-image-container col-12 col-md-4 col-lg-3 col-xl-4">
                                     <img src="assets/images/package-2/resort.webp" class="img-fluid"
                                         alt="Family photo at La Plagne ski resort">
                                     <img src="assets/images/logos-and-icons/slopes-logo-all.png"
                                         class="slopes-logo-overlay"
                                         alt="All types of slopes are available at this resort">
-                                </section>
+                                </figure>
                                 <!-- Main -->
                                 <section class="popular-card-main col-12 col-md-8 col-lg-6 col-xl-8 py-2 text-center text-md-start">
                                     <!-- Top -->
@@ -201,8 +201,10 @@
                                         <!-- Recommendations -->
                                         <section class="text-center">
                                             <div>Recommended for:</div>
-                                            <img src="assets/images/logos-and-icons/beginner.png" class="icon-recommend-popular" alt="Icon to recommend package for beginners" title="Beginners">
-                                            <img src="assets/images/logos-and-icons/intermediate.png" class="icon-recommend-popular" alt="Icon to recommend package for intermediates" title="Intermediates">
+                                            <ul class="list-unstyled d-flex justify-content-center column-gap-1 flex-wrap">
+                                                <li><img src="assets/images/logos-and-icons/beginner.png" class="icon-recommend-popular" alt="Beginners" title="Beginners"></li>
+                                                <li><img src="assets/images/logos-and-icons/intermediate.png" class="icon-recommend-popular" alt="Intermediates" title="Intermediates"></li>
+                                            </ul>
                                         </section>
                                     </div>
                                     <!-- Description -->
@@ -241,14 +243,14 @@
                         <article class="card rounded-0 container-fluid">
                             <div class="row">
                                 <!-- Image -->
-                                <section
+                                <figure
                                     class="card-img-left img-fluid package-image-container col-12 col-md-4 col-lg-3 col-xl-4">
                                     <img src="assets/images/package-3/resort.webp" class="img-fluid"
                                         alt="Family photo at La Plagne ski resort">
                                     <img src="assets/images/logos-and-icons/slopes-logo-all.png"
                                         class="slopes-logo-overlay"
                                         alt="All types of slopes are available at this resort">
-                                </section>
+                                </figure>
                                 <!-- Main -->
                                 <section class="popular-card-main col-12 col-md-8 col-lg-6 col-xl-8 py-2 text-center text-md-start">
                                     <!-- Top -->
@@ -267,10 +269,12 @@
                                         <!-- Recommendations -->
                                         <section class="text-center">
                                             <div>Recommended for:</div>
-                                            <img src="assets/images/logos-and-icons/intermediate.png" class="icon-recommend-popular" alt="Icon to recommend package for intermediates" title="Intermediates">
-                                            <img src="assets/images/logos-and-icons/advanced.png" class="icon-recommend-popular" alt="Icon to recommend package for advanced skiers" title="Advanced">
-                                            <img src="assets/images/logos-and-icons/snowboarding.png" class="icon-recommend-popular" alt="Icon to recommend package for snowboarding" title="Snowboarding">
-                                            <img src="assets/images/logos-and-icons/nightlife.png" class="icon-recommend-popular" alt="Icon to recommend package for nightlife" title="Nightlife">
+                                            <ul class="list-unstyled d-flex justify-content-center column-gap-1 flex-wrap">
+                                                <li><img src="assets/images/logos-and-icons/intermediate.png" class="icon-recommend-popular" alt="Intermediates" title="Intermediates"></li>
+                                                <li><img src="assets/images/logos-and-icons/advanced.png" class="icon-recommend-popular" alt="Advanced" title="Advanced"></li>
+                                                <li><img src="assets/images/logos-and-icons/snowboarding.png" class="icon-recommend-popular" alt="Snowboarding" title="Snowboarding"></li>
+                                                <li><img src="assets/images/logos-and-icons/nightlife.png" class="icon-recommend-popular" alt="Nightlife" title="Nightlife"></li>
+                                            </ul>
                                         </section>
                                     </div>
                                     <!-- Description -->
@@ -309,14 +313,14 @@
                         <article class="card rounded-0 container-fluid">
                             <div class="row">
                                 <!-- Image -->
-                                <section
+                                <figure
                                     class="card-img-left img-fluid package-image-container col-12 col-md-4 col-lg-3 col-xl-4">
                                     <img src="assets/images/package-4/resort.webp" class="img-fluid"
                                         alt="Family photo at La Plagne ski resort">
                                     <img src="assets/images/logos-and-icons/slopes-logo-all.png"
                                         class="slopes-logo-overlay"
                                         alt="All types of slopes are available at this resort">
-                                </section>
+                                </figure>
                                 <!-- Main -->
                                 <section class="popular-card-main col-12 col-md-8 col-lg-6 col-xl-8 py-2 text-center text-md-start">
                                     <!-- Top -->
@@ -335,8 +339,10 @@
                                         <!-- Recommendations -->
                                         <section class="text-center">
                                             <div>Recommended for:</div>
-                                            <img src="assets/images/logos-and-icons/beginner.png" class="icon-recommend-popular" alt="Icon to recommend package for beginners" title="Beginners">
-                                            <img src="assets/images/logos-and-icons/intermediate.png" class="icon-recommend-popular" alt="Icon to recommend package for intermediates" title="Intermediates">
+                                            <ul class="list-unstyled d-flex justify-content-center column-gap-1 flex-wrap">
+                                                <li><img src="assets/images/logos-and-icons/beginner.png" class="icon-recommend-popular" alt="Beginners" title="Beginners"></li>
+                                                <li><img src="assets/images/logos-and-icons/intermediate.png" class="icon-recommend-popular" alt="Intermediates" title="Intermediates"></li>
+                                            </ul>
                                         </section>
                                     </div>
                                     <!-- Description -->
@@ -373,7 +379,7 @@
                 </div>
 
 
-            </section>
+            </div>
         </section>
 
         <!-- Learn More section -->

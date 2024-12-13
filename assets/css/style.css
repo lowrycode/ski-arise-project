@@ -262,6 +262,7 @@ i {
     position: relative;
     /* object-fit: cover; */
     padding: 0;
+    margin:0;
 }
 
 .package-image-container img:first-child {
