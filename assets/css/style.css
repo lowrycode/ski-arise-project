@@ -1,4 +1,4 @@
-/* Import fonts here - Merriweather (hero-overlay), Montserrat (headings), Cabin (general text) */
+/* Fonts - Merriweather (hero-overlay), Montserrat (headings), Cabin (general text) */
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* GENERAL / MULTI-PAGE */
@@ -7,7 +7,6 @@
     --bs-navbar-height: 70px;
     scroll-padding-top: var(--bs-navbar-height);
     /* Colours */
-    /* --dark-primary: #0a3866; */
     --dark-primary: #053779;
     --dark-secondary: #005078;
     --dark-tertiary: #0173ac;
@@ -67,7 +66,6 @@ dt {
     font-weight: normal;
 }
 
-
 .hidden {
     display: none;
 }
@@ -101,14 +99,6 @@ i {
     /* This ensures vertical alignment of neighbouring text */
     width: 20px;
     text-align: center;
-}
-
-.fa-face-smile {
-    color: blue;
-}
-
-.fa-face-grin-stars {
-    color: red;
 }
 
 /* Lists */
@@ -191,7 +181,6 @@ i {
     height: 100%;
 }
 
-
 /* HOMEPAGE */
 /* Hero section */
 #hero {
@@ -249,7 +238,6 @@ i {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: italic;
-    /* text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); */
     padding: 0.5rem 1rem 0 1.5rem;
 }
 
@@ -260,7 +248,6 @@ i {
 /* Popular Packages Section */
 .package-image-container {
     position: relative;
-    /* object-fit: cover; */
     padding: 0;
     margin:0;
 }
@@ -311,8 +298,6 @@ i {
     opacity: 1;
 }
 
-
-
 /* ALL PACKAGES PAGE */
 .slopes-logo-key {
     width: 90px;
@@ -330,8 +315,6 @@ i {
     width: 50px;
 }
 
-
-
 .img-resort {
     width: 100%;
     height: auto;
@@ -346,19 +329,16 @@ i {
 }
 
 .grid-item-1 {
-    /* background-color: yellow; */
     grid-row: 1;
     grid-column: 1;
 }
 
 .grid-item-2 {
-    /* background-color: red; */
     grid-row: 2;
     grid-column: 1;
 }
 
 .grid-item-3 {
-    /* background-color: blue; */
     grid-row: 3;
     grid-column: 1;
 }
@@ -436,7 +416,6 @@ i {
 
 /* Tablet */
 @media screen and (min-width: 768px) {
-
     /* keeps whitespace (e.g. for bootstrap column) but is invisible */
     .custom-md-hidden {
         display: block;
