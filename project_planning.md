@@ -89,7 +89,7 @@ As a first-time customer, I want to find information about the company so that I
 - Ensure the relevant navigation item links to the "About Us" section
 - Add a Testimonials section immediately beneath the "About Us" section of the homepage which shows comments (and names) of previous customers rotating on a carousel which users can also control through navigation buttons
 
-### User Story 3
+### User Story 3 (MUST HAVE)
 As a potential customer, I want to be able to contact the company so that I can make inquiries about packages and book my next holiday
 
 **Acceptance criteria**
