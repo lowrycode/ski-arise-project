@@ -1,4 +1,4 @@
-# PLANNING DOCUMENT
+# PROJECT PLANNING
 
 ## Personal Goals
 In this first portfolio project I aim to demonstrate a strong grasp of HTML, CSS, and Bootstrap to develop a visually appealing static webpage that showcases my abilities to potential employers whilst meeting the assessment criteria for the project.

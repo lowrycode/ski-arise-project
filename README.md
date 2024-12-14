@@ -1,131 +1,85 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# SkiArise
 
-Welcome Peter Lowry,
+SkiArise is a (fictitious) company specializing in package ski / snow-boarding holidays. The company wants a website to increase brand awareness and sales.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The [**project-planning document**](project_planning.md) outlines the business goals of the company and the user stories which were used to inform the development of the website.
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+Visit the deployed website <a href="https://lowrycode.github.io/ski-arise-project/index.html" target="_blank" rel="noopener">**here**</a>.
+ 
+![SkiArise Responsive Design](assets/images/readme/responsive.jpg)
 
-## Gitpod Reminders
+## Contents
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## User Experience Design
+The following features contribute to a good User Experience (UX):
 
-`python3 -m http.server`
+### 1. Simple Structure and Intuitive Navigation
+The website categorises information in just 6 pages:
+- **Homepage** - *includes key information about the company and their services*
+- **All Packages page** - *lists all the package holidays offered (in alphabetical order)*
+- **Info page** - *provides more information about their packages and ski package holidays in general*
+- **Booking page** - *includes a form for booking a holiday with the company and leaving contact details for finalising details*
+- **Enquiry page** - *includes a form for asking a question and leaving contact details (this feature is to encourage potential customers who are not yet ready to commit to buying a holiday to connect with the company)*
+- **Success page** - *when a form is submitted, users are directed to this page to provide feedback that their form was submitted successfully*
 
-A blue button should appear to click: _Make Public_,
+Users can easily navigate to these pages through either the top navigation bar or through the contact section in the footer (which are both consistently shown on every page). 
 
-Another blue button should appear to click: _Open Browser_.
+There is also a link to the *About Us* section of the homepage from the top navigation bar.
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+In addition, there are sometimes links to specific sections of the *All Packages* and *Info* pages when it makes sense to link to these directly within the flow of the content.
 
-A blue button should appear to click: _Make Public_,
+### 2. Information Architecture
 
-Another blue button should appear to click: _Open Browser_.
+In addition to how the information is categorised on different pages, information is prioritised with the most important information appearing first.
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+For example:
+- the ordering of items within the top navigation bar reflects the order in which users are likely to be looking for information
+- the ordering of sections within the homepage (more details in a later section)
+- the keys explaining what icons mean at the top of the all-packages page
 
-To log into the Heroku toolbelt CLI:
+### 3. Interaction Design (IXD)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+The website follows standard conventions to make it predictable and easy for users to interact with.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+For example:
+- the navigation bar is positioned at the top of the screen on every page of the website and is consistently presented on all pages
+- the hamburger icon is used for revealing and collapsing navigation items on smaller devices
+- contact information is found at the bottom of each page and is consistently presented on all pages
+- links to external social media platforms are found in the contact section and are presented using the standard icons used by these platforms
+- Call To Action (CTA) buttons are positioned in the most obvious places (the top navigation bar and *Contact Us* footer section) and when applicable within the normal flow of content
 
-### Connecting your Mongo database
+The website also provides users with feedback when they hover over buttons (with colour changes) or clickable navigation cards (by enlarging), or when they submit a form (by presenting the user with a success message and a link to return to the homepage).
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
+Content hinting is used (i.e. showing the start of the next section just above the fold) so that users know to scroll down for more content. A good example of this can be seen with the start of the popular package section appearing just underneath the hero image / video on the homepage.
 
-------
+### 4. Accessibility (screen readers, colour contrast)
 
-## Release History
+### 5. Visual Design
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+- icons
+- colour palette
+- typography (fonts)
 
-**June 18, 2024,** Add Mongo back into template
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
+### 5b Responsive
 
-**May 28 2024:** Fix Mongo and Links installs
+wireframes (balsamiq)
+video only shows on tablet or larger 
 
-**April 26 2024:** Update node version to 16
+### 6. Performance
 
-**September 20 2023:** Update Python version to 3.9.17.
+Optimised images and videos, use of bootstrap CDN??, minimised code
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+### Design Choices
+- responsive
+  - video only shows on tablet or larger screen sizes
+- wireframes (balsamiq)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+## Features
+- current
+- future
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+FUTURE FEATURES
+Error page
+Javascript to pre-select holiday in Booking form
