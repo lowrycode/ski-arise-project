@@ -1,6 +1,58 @@
+# PLANNING DOCUMENT
+
+## Personal Goals
+In this first portfolio project I aim to demonstrate a strong grasp of HTML, CSS, and Bootstrap to develop a visually appealing static webpage that showcases my abilities to potential employers whilst meeting the assessment criteria for the project.
+
+I hope to demonstrate proficiency in:
+- PROJECT PLANNING - informed by business goals and user stories, prioritising features using must/should/could model 
+- UX DESIGN - intuitive navigation, visually appealing, interaction feedback (e.g. hover buttons, form submissions etc.), responsive across different devices
+- INDUSTRY BEST PRACTICES - SEO, accessibility (for screen readers etc.)
+- TECHNICAL COMPETENCE - clean and  bug-free code utilising HTML, CSS, and Bootstrap
+
+I intend to use this project as an opportunity to focus more explicitly on aspects related to project planning and monitoring (through the use of GitHub Projects), designing appropriate graphics (brand logo, icons, etc.) and in furthering my skills with the Bootstrap toolkit.
+
+## Project Scenario
+
+A (fictitious) company specializing in package ski / snow-boarding holidays wants a website to increase brand awareness and sales.
+
+### Business Goals
+
+The primary business goal is to:
+- Increase the number of customers buying package holidays and therefore increase total revenue
+
+Secondary business goals are to:
+- Raise public awareness by presenting themselves as a reliable and professional company that delivers excellent package holidays at good prices
+- Gain the trust of potential customers by demonstrating their legitimacy as a company, their knowledgability / contacts in the industry and their care for customers
+- Showcase their most popular package deals and provide essential information about their packages to potential customers
+
+The main Call to action (CTA) is:
+- **Book Your Holiday** (a button leading to an online order form)
+
+There will also be a **Make an Enquiry** button as a secondary CTA to encourage customers who are not yet ready to commit to buying a holiday to connect with the company.
+
+---
+
+### User Personas
+
+The primary target audience for the website is potential customers who are looking for a ski holiday package.
+
+These users may fall into one or more of the categories below. Each category of user has been assigned a priority rating in line with the companies business strategy
+- first-time skiers **HIGH**
+- experienced skiers (of differing abilities) **HIGH**
+- families of different ages (including children) **HIGH**
+- friendship groups (e.g. young adults, students) **MEDIUM**
+- snowboarders **MEDIUM**
+- organized groups (work, clubs, societies, school trips)  **LOW**
+
+---
+
+## Project Planning and Monitoring With GitHub Projects
+
 *The information below is a copy of the User Stories, Acceptance Criteria, and Tasks that were added to the GitHub Project board during the planning stage. Each feature was assigned a label (must-have, should-have, could-have) to prioritise the different features and ensure they are completed in a timely manner.*
 
-**User Story 1:** As a potential customer, I want to find essential information about the packages on offer so that I can decide whether to book my next holiday with this company
+### User Story 1 (MUST HAVE)
+
+As a potential customer, I want to find essential information about the packages on offer so that I can decide whether to book my next holiday with this company
 
 **Acceptance criteria**
 - Essential information (name of resort, location, dates, number of people, total price) about popular packages is visible from the homepage with links to further details about all packages
@@ -25,9 +77,8 @@
 - Include a "Browse All" button near the top of the "popular-packages" section on the homepage which links to the top of the "All Packages" page
 - Ensure that the "All Packages" navigation item links to the top of the "All Packages" page
 
-
-
-**User Story 2:** As a first-time customer, I want to find information about the company so that I can be sure that they are trustworthy and have a proven track record of delivering quality holidays
+### User Story 2 (MUST HAVE)
+As a first-time customer, I want to find information about the company so that I can be sure that they are trustworthy and have a proven track record of delivering quality holidays
 
 **Acceptance criteria**
 - The home page includes information about the company including details about their wealth of experience and contacts within the industry alongside a photo of the team and any awards they have achieved
@@ -38,9 +89,8 @@
 - Ensure the relevant navigation item links to the "About Us" section
 - Add a Testimonials section immediately beneath the "About Us" section of the homepage which shows comments (and names) of previous customers rotating on a carousel which users can also control through navigation buttons
 
-
-
-**User Story 3:** As a potential customer, I want to be able to contact the company so that I can make inquiries about packages and book my next holiday
+### User Story 3
+As a potential customer, I want to be able to contact the company so that I can make inquiries about packages and book my next holiday
 
 **Acceptance criteria**
 - Every page of the website includes contact information (including postal address, phone, email, social media links) and Call-To-Action buttons ("Book Your Holiday" and "Make An Enquiry")
@@ -66,9 +116,8 @@
 - Add a "Make an Enquiry" button to the "Contact Us" section which links to the Enquiry page
 - Ensure that each form works as expected and presents clearly on different devices
 
-
-
-**User Story 4:** As a first time skier, I want to learn about what ski holidays are like so I can decide if this type of holiday is for me
+### User Story 4 (SHOULD HAVE)
+As a first time skier, I want to learn about what ski holidays are like so I can decide if this type of holiday is for me
 
 **Acceptance criteria**
 - The homepage includes a section for FAQs as well as images / videos showing skiers in idyllic locations to entice first-time customers.
@@ -86,7 +135,8 @@
 
 
 
-**User Story 5:** As an experienced skier, I want to find information about different resorts so I can decide whether the slopes are suitable for my ability
+### User Story 5 (SHOULD HAVE)
+As an experienced skier, I want to find information about different resorts so I can decide whether the slopes are suitable for my ability
 
 **Acceptance criteria**
 - Further information about the types of slopes and how to identify packages recommended for experienced skiers is organised on the "Info" page and a link to this page is clearly signposted on the homepage
@@ -98,9 +148,8 @@
 - Add a visual card to the "Learn More" section of the homepage which links to the relevant section on the "Info" page
 - The "All Packages" page contains the visual icons showing what slopes are available at each resort
 
-
-
-**User Story 6:** As a family with children, we want to find out which resorts/packages cater well for children so we can ensure that the whole family will enjoy the holiday
+### User Story 6 (SHOULD HAVE)
+As a family with children, we want to find out which resorts/packages cater well for children so we can ensure that the whole family will enjoy the holiday
 
 **Acceptance criteria**
 - Information about which packages cater well for children is organised on another page and a link to this page is clearly signposted on the home page.
@@ -113,9 +162,8 @@
 - Include at least one family-related question in the FAQ section of the homepage
 - Include at least one positive testimonial describing how the trip was enjoyed by the whole family
 
-
-
-**User Story 7:** As a friendship group of young adults, we want to find out which resorts have a lively night life / cafe culture so that we can socialise with others and meet new people
+### User Story 7 (COULD HAVE)
+As a friendship group of young adults, we want to find out which resorts have a lively night life / cafe culture so that we can socialise with others and meet new people
 
 **Acceptance criteria**
 - Information about which resorts have the most active night life is shown on another page and a link to this page is clearly signposted on the home page
@@ -128,9 +176,8 @@
 - Include at least one question in the FAQ section of the homepage which relates to social activities off the slopes
 - Include at least one positive testimonial describing the night life at a particular resort
 
-
-
-**User Story 8:** As a snowboarder, I want to find resorts that cater well for snowboarders as well as skiers so that I can choose the best resort for my next trip
+### User Story 8 (COULD HAVE)
+As a snowboarder, I want to find resorts that cater well for snowboarders as well as skiers so that I can choose the best resort for my next trip
 
 **Acceptance criteria**
 - A dedicated section on the "Info" page shows information about which resorts are especially well suited to snowboarding and a link to this section is clearly signposted on the home page
@@ -145,9 +192,8 @@
 - Include the icon with all relevant packages on the "All Packages" page and homepage
 - Add a testimonial from a snowboarder to the other testimonials shown on the homepage
 
-
-
-**User Story 9:** As a group organiser, I want to see which resorts / packages can accommodate larger groups within the same hotel / accommodation so that we can all stay together
+### User Story 9 (COULD HAVE)
+As a group organiser, I want to see which resorts / packages can accommodate larger groups within the same hotel / accommodation so that we can all stay together
 
 **Acceptance criteria:**
 - Information about which resorts and hotels are able to accommodate larger groups is shown on another page and a link to this page is clearly signposted on the home page
@@ -158,9 +204,8 @@
 - Add a section to the "Info" page which includes information relevant to those organising larger groups
 - Add a visual card for Group Organisers to the "Learn More" section on the homepage which links to the relevant section on the "Info" page
 
-
-
-**User Story 10:** As a group organiser, I want to know about safety protocols so that I can carry out a risk assessment effectively
+### User Story 10 (COULD HAVE)
+As a group organiser, I want to know about safety protocols so that I can carry out a risk assessment effectively
 
 **Acceptance criteria:**
 - Information about where to find further information about issues relating to health and safety (such as risk assessments) is included in the most obvious section of the website
