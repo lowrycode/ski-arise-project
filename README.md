@@ -155,11 +155,31 @@ The overlay text includes the company logo and advertising slogan in similar for
 
 ### Popular Packages Section
 
+This section was placed immediately after the hero section as it closely links with the primary purpose of the site (to showcase best products and gain new customers).
 
+![Popular Package section on tablet screens](assets/images/readme/popular-packages-section.jpg)
+
+The layout of this section changes significantly on different screen sizes. The image above shows how it displays on tablet screens.
+
+Headline details about selected packages are presented alongside buttons which take the user to specific sections of the **All Packages** page where further details can be found.
+
+Images are used to increase emotional engagement. The 5 star ratings are included to increase the credibility of the business and gain the trust of potential customers. The recommendation icons assist users in quickly identifying which packages are most suitable for them.
+
+*NOTE: the decision was made to not include the icons key here to prevent the homepage from becoming too cluttered. At the point when users start looking more deeply at the website, they will come across the meanings of these icons both in the key at the top of the All Packages page and also in the relevant sections of the Learn More page. If they are using a laptop, they will also see descriptive titles appear when they hover over the icon.*
 
 ### Learn More Section
 
+This section logically follows the previous section as it allows users to quickly find the information they are looking for.
+
+![Learn More section on tablet screens](assets/images/readme/learn-more-section.jpg)
+
+Each card includes a key word and related image to grab the attention of the user. On hovering over the card, it expands slightly to indicate to the user that it is clickable. On touching / clicking on a card, the user is taken to the relevant section of the **Info** page.
+
+This section makes navigating the site very streamlined and intuitive for the user and caters for the main user personas that were identified in the [**Project Planning**](project_planning.md) document.
+
 ### FAQs Section
+
+
 
 ### About Us Section
 
