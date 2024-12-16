@@ -201,8 +201,23 @@ On larger screen sizes, the width of the container is made narrower than the def
 
 ### About Us Section
 
+One of the key business goals stated in the [**Project Planning**](project_planning.md) document is to *"Gain the trust of potential customers by demonstrating their legitimacy as a company, their knowledgability / contacts in the industry and their care for customers"*. This is therefore a key section of the website and why it can be accessed directly from the top navigation menu.
+
+![About section](assets/images/readme/about-section.jpg)
+
+The section includes information which highlights their years of experience and contacts in the industry as well as showcasing the awards that the company has received.
+
+Images of the team and the shop are included to further demonstrate the credibility of the business, increase the trust of potential customers and give them an emotional connection with the company.
+
 ### Testimonials Section
 
+This section also seeks to increase the trust of potential customers and shows comments from happy customers rotating on a carousel.
+
+![Testimonials section](assets/images/readme/testimonials-section.jpg)
+
+The navigation buttons remain hidden until the mouse hovers over the quote (or it is touched on a mobile or tablet device) to give the user control while keeping the section clean and visually appealing.
+
+Testimonials from all of the key target groups are included (e.g. families, snowboarders, first-timers).
 
 ## All-Packages Page
 
