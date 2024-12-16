@@ -142,6 +142,13 @@ This section appears in the footer of every page of the website. It includes the
 
 There are also links to the social media pages for the company which open in a new tab (to avoid taking users away from the main site). Since the company does not exist, these links currently just direct to the homepages of each website. The rel="noopener" attribute is used for increased security when navigating to these sites.
 
+### Alternating background colours
+
+On every page of the site, adjacent sections have a subtly different background colour.
+
+![Adjacent sections on the Info page with different background colours](assets/images/readme/alternating-backgrounds.jpg)
+
+This makes it easier for the users to distinguish between different sections of the page as well as improving the aesthetics of the website.
 
 ## Homepage
 
@@ -179,7 +186,18 @@ This section makes navigating the site very streamlined and intuitive for the us
 
 ### FAQs Section
 
+This section logically follows on from the Learn More section and answers specific questions that potential customers may have.
 
+The [**Project Planning**](project_planning.md) document identifies those who have never been on a ski holiday before as a target audience in the company's business strategy. This section is primarily aimed at this group.
+
+![FAQ section with a narrow centralised container on larger screen sizes](assets/images/readme/faq-section.jpg)
+
+
+All answers are hidden by default which allows users to easily skip over this section if they wish. Answers are easily revealed by clicking on either the caret symbol (down arrow) or question text. 
+
+When a different accordion item is opened, any previously opened items will close. This keeps the section tidy and uncluttered.
+
+On larger screen sizes, the width of the container is made narrower than the default container size.This makes it easier for the user as it prevents the caret symbol from being too far away from the question text and is more aesthetically pleasing.
 
 ### About Us Section
 
