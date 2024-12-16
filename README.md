@@ -68,10 +68,6 @@ Wireframes were produced using Balsamiq at the earliest stages of planning to en
 
 ***PUT WIREFRAME IMAGES HERE!!!***
 
-To grab the attention of users when they first arrive at the site, they are presented with a short action video of people skiing which transforms into a hero image of an idyllic ski scene. The decision was made to bypass the video on smaller mobile devices and replace it with the hero image for a better experience for mobile users.
-
-![Hero section shows a static image for mobile devices but a video for tablets and larger screens](assets/images/readme/responsive-hero.jpg)
-
 ## 6. Visual Design
 
 ### Media
@@ -151,7 +147,15 @@ There are also links to the social media pages for the company which open in a n
 
 ### Hero section
 
+To grab the attention of users when they first arrive at the site, they are presented with a short action video of people skiing which transforms into a hero image of an idyllic ski scene. The decision was made to bypass the video on smaller mobile devices and replace it with the hero image for a better experience for mobile users.
+
+![Hero section shows a static image for mobile devices but a video for tablets and larger screens](assets/images/readme/responsive-hero.jpg)
+
+The overlay text includes the company logo and advertising slogan in similar formatting to how it appears on their printed advertisements.
+
 ### Popular Packages Section
+
+
 
 ### Learn More Section
 
