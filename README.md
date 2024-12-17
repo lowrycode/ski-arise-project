@@ -106,7 +106,7 @@ The icons were designed to be intuitive so that their meaning is immediately cle
 
 The colours of these icons were chosen to enhance their meaning. For example, the beginners icon is green because they will want to access the easiest slopes (which are categorised in Europe by the colour green).
 
-### 7. Performance
+## 7. Performance
 
 To ensure that the pages load quickly, all images used on the deployed website were converted to webp format other than those requiring transparency (such as the brand logo and recommendation icons) which were scaled to appropriately sized png files.
 
@@ -221,15 +221,33 @@ Testimonials from all of the key target groups are included (e.g. families, snow
 
 ## All-Packages Page
 
-### Header
+This page allows users to browse all the package holidays that the company offers. Users arrive at this page either from the top navigation menu or one of the buttons in the Popular Package section of the homepage.
 
-- Main heading with supporting description
-- Icons key
+At the top of the page, users see the main page heading with a supporting description so that users know where they are on the site and what to expect to find on this page. The icon keys are positioned immediately below this.
 
-### Package Cards
+Information about each of the packages is summarised on a card. It includes further information about the resort and accommodation alongside supporting images.
 
+![A card on the All Packages page as viewed on a laptop](assets/images/readme/package-info-card-laptop.jpg)
+
+A custom grid system was used here (rather than just using the regular Bootstrap grid system) to allow for greater control in the positioning of the "tick lists" on different screen sizes. On larger screens, these lists are positioned with the other text to the right of the images whereas on smaller screens they are positioned below the image.
+
+![A card on the All Packages page as viewed on a tablet](assets/images/readme/package-info-card-tablet.jpg)
 
 ## Info Page
+
+This page provides users with more information about the packages and ski holidays in general. Users arrive at this page either from the top navigation menu or by clicking on one of the cards in the Learn More section of the homepage.
+
+![The top of the Info page](assets/images/readme/info-page.jpg)
+
+The main purpose of the page is to engage the different types of users, give them confidence that their requirements are understood by the company and that the packages cater well for these requirements. It also reinforces the purpose of the recommendation icons.
+
+## Booking Page
+
+
+
+## Enquiry Page
+
+## Success Page
 
 
 
@@ -241,3 +259,6 @@ Testimonials from all of the key target groups are included (e.g. families, snow
 FUTURE FEATURES
 Error page
 Javascript to pre-select holiday in Booking form
+Filter packages by categories
+Could Have User Stories
+All Packages page to include more pictures of the resort on carousel for each package
