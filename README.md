@@ -12,7 +12,7 @@ You can visit the deployed website <a href="https://lowrycode.github.io/ski-aris
 The following features contribute to a good User Experience (UX):
 
 ## 1. Simple Structure and Intuitive Navigation
-The website categorises information in just 6 pages:
+The website categorises information into 6 pages:
 - **Homepage** - *includes key information about the company and their services*
 - **All Packages page** - *lists all the package holidays offered (in alphabetical order)*
 - **Info page** - *provides more information about their packages and ski package holidays in general*
@@ -32,8 +32,8 @@ In addition to how the information is categorised on different pages, informatio
 
 For example:
 - the ordering of items within the top navigation bar reflects the order in which users are likely to be looking for information
-- the ordering of sections within the homepage (more details in a later section)
-- the keys explaining what icons mean at the top of the all-packages page
+- the ordering of sections within the homepage (this is considered in detail in the [Homepage](#homepage) section)
+- the keys explaining what icons mean are positioned at the top of the all-packages page
 
 ## 3. Interaction Design (IXD)
 
@@ -104,7 +104,7 @@ The icons were designed to be intuitive so that their meaning is immediately cle
 
 ![Key for the icons shown at the top of the All Packages page](assets/images/readme/icons-key.jpg)
 
-The colours of these icons were chosen to enhance their meaning. For example, the beginners icon is green because they will want to access the easiest slopes (which are categorised in Europe by the colour green).
+The colours of these icons were chosen to enhance their meaning. For example, the beginners icon is green because they will want to access the easiest slopes (which are categorised in Europe by the colour green). Using different colours for each icon also makes it easier to spot when browsing the packages.
 
 ## 7. Performance
 
@@ -128,11 +128,11 @@ On smaller screen sizes (mobile and tablet devices), the navigation menu is hidd
 
 ![Navigation bar on smaller screens](assets/images/readme/nav-bar-collapsible.jpg)
 
-The items are listed in the order of priority that the users are likely to want to visit them and the CTA button is also included here. Clicking on the brand logo also navigates back to the homepage.
+The items are listed in the order of priority that the users are likely to want to visit them and the CTA button is also included here. Clicking on the brand logo provides an alternative method for navigating to the homepage - this may be preferred by mobile and tablet users who would otherwise have to expand the navigation menu.
 
-The default behaviour of the Bootstrap Navbar is retained (i.e. the hover effects and lighter font showing the active page).
+The default behaviour of the Bootstrap Navbar is retained (i.e. the hover effects and the lighter font showing the active page).
 
-*NOTE: the **About Us** link navigates to a section on the homepage and therefore the navigation bar currently does not collapse automatically on smaller screens when navigating between the **Home** and **About Us** links. This is a bug with the bootstrap library and requires additional javascript to enforce the correct behaviour.*
+***NOTE:** the **About Us** link navigates to a section on the homepage and therefore the navigation bar currently does not collapse automatically on smaller screens when navigating between the **Home** and **About Us** links. This is a bug with the bootstrap library and requires additional javascript to enforce the correct behaviour.*
 
 ### Contact Us Section
 
@@ -172,7 +172,7 @@ Headline details about selected packages are presented alongside buttons which t
 
 Images are used to increase emotional engagement. The 5 star ratings are included to increase the credibility of the business and gain the trust of potential customers. The recommendation icons assist users in quickly identifying which packages are most suitable for them.
 
-*NOTE: the decision was made to not include the icons key here to prevent the homepage from becoming too cluttered. At the point when users start looking more deeply at the website, they will come across the meanings of these icons both in the key at the top of the All Packages page and also in the relevant sections of the Learn More page. If they are using a laptop, they will also see descriptive titles appear when they hover over the icon.*
+***NOTE:** the decision was made to not include the icons key here to prevent the homepage from becoming too cluttered. At the point when users start looking more deeply at the website, they will come across the meanings of these icons both in the key at the top of the All Packages page and also in the relevant sections of the Learn More page. If they are using a laptop, they will also see descriptive titles appear when they hover over the icon.*
 
 ### Learn More Section
 
@@ -197,7 +197,7 @@ All answers are hidden by default which allows users to easily skip over this se
 
 When a different accordion item is opened, any previously opened items will close. This keeps the section tidy and uncluttered.
 
-On larger screen sizes, the width of the container is made narrower than the default container size.This makes it easier for the user as it prevents the caret symbol from being too far away from the question text and is more aesthetically pleasing.
+On larger screen sizes, the width of the container is made narrower than the default container size. This makes it easier for the user as it prevents the caret symbol from being too far away from the question text and is more aesthetically pleasing.
 
 ### About Us Section
 
@@ -251,7 +251,7 @@ Rather than paying for the holiday at this stage, the form is intended to be the
 
 The form is organised into two general categories
 - **Package Information** - for entering details about which package they want to get and any specific requirements / changes they would like to make
-- **Contact Details** - for entering essential contact information, choosing their preferred method of communication and optionally opt-in to news of special offers.
+- **Contact Details** - for entering essential contact information, choosing their preferred method of communication and optionally opt-in to receive news of special offers.
 
 The form inputs include validation. Assuming that all inputs pass these validation checks, the user is directed to the Success page on submission of the form.
 
@@ -259,7 +259,7 @@ Notice the changed appearance of the CTA button in the navigation bar (and foote
 
 ## Enquiry Page
 
-When users click on the secondary CTA button ("Make An Enquiry") they are directed to this page. Here they can fill in a form leaving their question, contact details, preferred method of communication and optional opt-in to news of special offers.
+When users click on the secondary CTA button ("Make An Enquiry") they are directed to this page. Here they can fill in a form leaving their question, contact details, preferred method of communication and optionally opt-in to receive news of special offers.
 
 ![The Enquiry page](assets/images/readme/enquiry-page.jpg)
 
@@ -286,7 +286,7 @@ The following features could be added in the future:
 The aim of this project was to build a static webpage. Therefore, only the javascript required for Bootstrap elements to function correctly was used in this project.
 
 In the future, the following functionality could be added:
-- the ability to search and filter packages on the All Packages page by categories (e.g. recommendation icons)
+- the ability to search and filter packages on the All Packages page by categories (e.g. by price or recommendation icons)
 - the ability to pre-populate the first select input (Resort Name) when users click on the "Book Your Holiday" button from within a particular package card
 - a fix for the navigation bar not correctly collapsing for same-page navigation on smaller screens
 
@@ -297,7 +297,7 @@ An Error page could be added so that if a page is not found, the user has an opt
 ## Backend
 
 In reality, a backend system would be needed to allow for
-- form information to be sent via a POST request (rather than the current GET method)
+- form information to be sent via a POST request (currently the GET method is used to make it suitable for deploying on Github)
 - customer information to be stored in a secure database
 
 ## Additional Content
@@ -320,7 +320,7 @@ Most of the code was written in a local copy of **Visual Studio Code** to take a
 
 The wireframes were produced using a local copy of **Balsamiq** (which was downloaded from <a href="https://balsamiq.com/" target="_blank" rel="noopener">**here**</a>).
 
-## Images
+## Image Generation and Design
 
 Most of the images on the website were AI generated images using:
 - **Stable Diffusion** (through <a href="https://github.com/ehristoforu/DeFooocus" target="_blank" rel="noopener">**DeFooocus**</a>) - used for most life-like images
@@ -330,15 +330,15 @@ For further editing and design work, an open source image editor called <a href=
 
 Images were optimised for the website by converting to webp format using the <a href="https://pixelied.com/convert" target="_blank" rel="noopener">**Pixelied**</a> website.
 
-The Favicons were produced using <a href="https://favicon.io/" target="_blank" rel="noopener">**favicon.io**</a> from a custom image.
+The favicons were produced using <a href="https://favicon.io/" target="_blank" rel="noopener">**favicon.io**</a> from a custom image.
 
 ## Textual Content
 
 Much of the information included on the website is fictitious (including details of the company and accommodations).
 
-I have never been on a ski holiday myself so **ChatGPT** was used to quickly generate information about ski holidays, resorts and the things that different users would want to learn about on the Info page. These responses were then manually edited to fit the context of the website. Since the website is primarily for demonstrating website design, this information was not checked thorougly for accuracy and therefore will likely contain some factual errors.
+I have never been on a ski holiday myself so **ChatGPT** was used to quickly generate information about ski holidays, resorts and the things that different users would want to learn about on the Info page. These responses were then manually edited to fit the context of the website. Since the website is primarily for demonstrating website design, this information was not checked thorougly for accuracy and therefore may contain some factual errors.
 
-The fonts came from  <a href="https://fonts.google.com/" target="_blank" rel="noopener">**Google Fonts**</a> and textual icons were from <a href="https://fontawesome.com/" target="_blank" rel="noopener">**Font Awesome**</a>. 
+The fonts were sourced from <a href="https://fonts.google.com/" target="_blank" rel="noopener">**Google Fonts**</a> and textual icons were provided by <a href="https://fontawesome.com/" target="_blank" rel="noopener">**Font Awesome**</a>. 
 
 # Testing
 
