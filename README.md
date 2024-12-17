@@ -305,3 +305,45 @@ In reality, a backend system would be needed to allow for
 It would be natural to show multiple images for each ski resort using a carousel. This was not done due to the time taken to generate suitable images but it would make for a better user experience.
 
 The company may decide to continue to expand their business strategy to target larger group bookings. Therefore, the remaining (could-have) User Stories could be implemented.
+
+# Technologies Used
+
+## Website Development
+
+The website mainly uses **HTML**, **CSS** and **BootStrap** but also includes the default **Bootstrap Javascript** file to enable interactive elements (e.g. carousels).
+
+Most of the code was written in a local copy of **Visual Studio Code** to take advantage of the *Live Preview* extension but **Gitpod** (a cloud based environment) was used in the early stages of development, and for sharing the code in mentor meetings and a tutoring session.
+
+**Git** was used as the version control system and all commits were made to the main branch.
+
+**Github** was used to host the Git repository and for deploying the website. **Github projects** was also used for planning and monitoring the development process.
+
+The wireframes were produced using a local copy of **Balsamiq** (which was downloaded from <a href="https://balsamiq.com/" target="_blank" rel="noopener">**here**</a>).
+
+## Images
+
+Most of the images on the website were AI generated images using:
+- **Stable Diffusion** (through <a href="https://github.com/ehristoforu/DeFooocus" target="_blank" rel="noopener">**DeFooocus**</a>) - used for most life-like images
+- **Adobe Express** - for generating icons which were then manually edited
+
+For further editing and design work, an open source image editor called <a href="https://www.gimp.org/" target="_blank" rel="noopener">**GIMP**</a> was used.
+
+Images were optimised for the website by converting to webp format using the <a href="https://pixelied.com/convert" target="_blank" rel="noopener">**Pixelied**</a> website.
+
+The Favicons were produced using <a href="https://favicon.io/" target="_blank" rel="noopener">**favicon.io**</a> from a custom image.
+
+## Textual Content
+
+Much of the information included on the website is fictitious (including details of the company and accommodations).
+
+I have never been on a ski holiday myself so **ChatGPT** was used to quickly generate information about ski holidays, resorts and the things that different users would want to learn about on the Info page. These responses were then manually edited to fit the context of the website. Since the website is primarily for demonstrating website design, this information was not checked thorougly for accuracy and therefore will likely contain some factual errors.
+
+The fonts came from  <a href="https://fonts.google.com/" target="_blank" rel="noopener">**Google Fonts**</a> and textual icons were from <a href="https://fontawesome.com/" target="_blank" rel="noopener">**Font Awesome**</a>. 
+
+# Testing
+
+# Deployment
+
+# Credits
+
+# Acknowledgments
