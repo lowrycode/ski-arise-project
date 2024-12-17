@@ -277,16 +277,31 @@ On successful submission of one of the forms, the user is directed to the Succes
 
 There is a button to return to the homepage and the top navigation bar also works as normal for users who prefer this.
 
+# Future Features
 
-## Features
-- current
-- future
+The following features could be added in the future:
 
+## Javascript Functionality
 
-FUTURE FEATURES
-Add Backend so that forms use POST (not GET) method
-Error page
-Javascript to pre-select holiday in Booking form and higher level validation using RegEx
-Filter packages by categories
-Could Have User Stories
-All Packages page to include more pictures of the resort on carousel for each package
+The aim of this project was to build a static webpage. Therefore, only the javascript required for Bootstrap elements to function correctly was used in this project.
+
+In the future, the following functionality could be added:
+- the ability to search and filter packages on the All Packages page by categories (e.g. recommendation icons)
+- the ability to pre-populate the first select input (Resort Name) when users click on the "Book Your Holiday" button from within a particular package card
+- a fix for the navigation bar not correctly collapsing for same-page navigation on smaller screens
+
+## Error Page
+
+An Error page could be added so that if a page is not found, the user has an option to return to safety (the homepage).
+
+## Backend
+
+In reality, a backend system would be needed to allow for
+- form information to be sent via a POST request (rather than the current GET method)
+- customer information to be stored in a secure database
+
+## Additional Content
+
+It would be natural to show multiple images for each ski resort using a carousel. This was not done due to the time taken to generate suitable images but it would make for a better user experience.
+
+The company may decide to continue to expand their business strategy to target larger group bookings. Therefore, the remaining (could-have) User Stories could be implemented.
