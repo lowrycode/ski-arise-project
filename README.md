@@ -243,12 +243,39 @@ The main purpose of the page is to engage the different types of users, give the
 
 ## Booking Page
 
+When users click on the primary CTA button ("Book Your Holiday") they are directed to this page. Here they can fill in a form to express interest in one of the packages. 
 
+![The Booking page](assets/images/readme/booking-page.jpg)
+
+Rather than paying for the holiday at this stage, the form is intended to be the start of the process where users can outline any specific requirements or preferences they have so that the exact details can be later discussed with a member of the team and the package tailored to their requirements.
+
+The form is organised into two general categories
+- **Package Information** - for entering details about which package they want to get and any specific requirements / changes they would like to make
+- **Contact Details** - for entering essential contact information, choosing their preferred method of communication and optionally opt-in to news of special offers.
+
+The form inputs include validation. Assuming that all inputs pass these validation checks, the user is directed to the Success page on submission of the form.
+
+Notice the changed appearance of the CTA button in the navigation bar (and footer). This is to show the user that the button has been disabled since they are already on the Booking page.
 
 ## Enquiry Page
 
+When users click on the secondary CTA button ("Make An Enquiry") they are directed to this page. Here they can fill in a form leaving their question, contact details, preferred method of communication and optional opt-in to news of special offers.
+
+![The Enquiry page](assets/images/readme/enquiry-page.jpg)
+
+The purpose of this page is to encourage users who are reluctant to express interest in buying a holiday to connect with the company.
+
+The form inputs include validation. Assuming that all inputs pass these validation checks, the user is directed to the Success page on submission of the form.
+
+Notice the changed appearance of the "Make An Enquiry" button in the footer. This is to show the user that the button has been disabled since they are already on the Enquiry page.
+
 ## Success Page
 
+On successful submission of one of the forms, the user is directed to the Success page. This reassures the user that their information has been sent successfully to the company.
+
+![The Success page](assets/images/readme/success-page.jpg)
+
+There is a button to return to the homepage and the top navigation bar also works as normal for users who prefer this.
 
 
 ## Features
@@ -257,8 +284,9 @@ The main purpose of the page is to engage the different types of users, give the
 
 
 FUTURE FEATURES
+Add Backend so that forms use POST (not GET) method
 Error page
-Javascript to pre-select holiday in Booking form
+Javascript to pre-select holiday in Booking form and higher level validation using RegEx
 Filter packages by categories
 Could Have User Stories
 All Packages page to include more pictures of the resort on carousel for each package
