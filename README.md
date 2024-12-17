@@ -94,7 +94,7 @@ The overlay text in the hero image used Merriweather since this was the closest 
 
 When designing the brand logo, papyrus font was used due to its smooth flowing style and rough edges, reminiscent of a ski slope. The capital "A" was edited (made thicker along the right edge) to look more like a mountain slope and the following "r" was replaced with an illustration of a skier roughly taking the posture of this letter.
 
-![SkiArise brand logo](assets/images/logos-and-icons/brand-logo.png)
+![SkiArise brand logo](assets/images/readme/brand-logo-black-bg.jpg)
 
 ### Icons
 
