@@ -1,7 +1,29 @@
 /* Fonts - Merriweather (hero-overlay), Montserrat (headings), Cabin (general text) */
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* GENERAL / MULTI-PAGE */
+/* GENERAL */
+/* Animations */
+@keyframes customFadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes customFadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Common Page Elements */
 :root {
     /* Accounting for navbar */
     --bs-navbar-height: 70px;
@@ -210,16 +232,6 @@ i {
     z-index: -2;
 }
 
-@keyframes fadeInOverlay {
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
-    }
-}
-
 #hero-overlay {
     opacity: 0;
     position: absolute;
@@ -230,7 +242,7 @@ i {
     color: white;
     background-color: rgba(0, 50, 90, 0.8);
     padding: 10px 20px;
-    animation: fadeInOverlay 2s ease-in-out forwards;
+    animation: customFadeIn 2s ease-in-out forwards;
 }
 
 #hero-overlay p {
@@ -460,31 +472,11 @@ i {
         display: block;
     }
 
-    @keyframes heroImageFadeIn {
-        from {
-            opacity: 0;
-        }
-    
-        to {
-            opacity: 1;
-        }
-    }    
-
-    @-webkit-keyframes heroImageFadeIn {
-        0% {
-            opacity: 0;
-        }
-
-        100% {
-            opacity: 1;
-        }
-    }
-
     #hero-image {
         /* Used as fall-back image behind video - delay prevents flicker before video loads */
         opacity: 0;
-        -webkit-animation: heroImageFadeIn 1s ease-in-out forwards;
-        animation: heroImageFadeIn 1s ease-in-out forwards;
+        -webkit-animation: customFadeIn 1s ease-in-out forwards;
+        animation: customFadeIn 1s ease-in-out forwards;
     }
 
     #hero-overlay {
