@@ -348,7 +348,9 @@ The fonts were sourced from <a href="https://fonts.google.com/" target="_blank" 
 
 The deployed site was manually tested on various devices and web browsers to check that they are fully responsive and consistent in their appearance and functionality. These manual tests were conducted by myself and others.
 
-The code was also checked using validators and the Lighthouse tool in Google Chrome's DevTools
+Form data was checked using the Network Tab in Google Chrome's DevTools.
+
+The code was also checked using validators and the Lighthouse tool in Google Chrome's DevTools.
 
 ## Browser Testing
 
@@ -418,4 +420,16 @@ To clone the repository (assuming you already have git installed on your machine
 
 # Credits
 
+When writing the code for this project, the standard boiler-plate code (from the <a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" target="_blank" rel="noopener">**Bootstrap documentation**</a>) was usually used as a starting point when adding the various bootstrap elements.
+
+<a href="https://stackoverflow.com/" target="_blank" rel="noopener">**Stack Overflow**</a> proved to be a useful source of information on a whole range of topics, such as *semantic HTML*, *flexbox styling*, and *compatability issues with Safari*. <a href="https://css-tricks.com/" target="_blank" rel="noopener">**CSS Tricks**</a> was another useful website for questions about styling and best practices when using webp images.
+
+The image used in the Hero section of the homepage was by Andreas from Pixabay: https://pixabay.com/photos/winter-ski-to-ski-ski-school-skier-4066634/
+
+The video used in the Hero section combined the above image with a video by Jorgelina Delmagro from Pixabay:
+https://pixabay.com/videos/ski-snow-holiday-nature-sunset-186843/
+
+
 # Acknowledgments
+
+This website was developed as part of the Code Institute Full Stack Development course and was submitted as my first portfolio project. I would like to thank my mentor <a href="https://www.linkedin.com/in/precious-ijege-908a00168/" target="_blank" rel="noopener">**Precious Ijege**</a> for his encouragement and advice, particularly for his recommendations in using a static hero image (rather than a video) on mobile devices to improve user experience.
