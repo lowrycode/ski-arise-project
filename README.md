@@ -426,11 +426,9 @@ When writing the code for this project, the standard boiler-plate code (from the
 
 <a href="https://stackoverflow.com/" target="_blank" rel="noopener">**Stack Overflow**</a> proved to be a useful source of information on a whole range of topics, such as *semantic HTML*, *flexbox styling*, and *compatability issues with Safari*. <a href="https://css-tricks.com/" target="_blank" rel="noopener">**CSS Tricks**</a> was another useful website for questions about styling and best practices when using webp images.
 
-The image used in the Hero section of the homepage was by Andreas from Pixabay: https://pixabay.com/photos/winter-ski-to-ski-ski-school-skier-4066634/
+The photograph used in the Hero section of the homepage was provided by Andreas on Pixabay and can be found <a href="https://pixabay.com/photos/winter-ski-to-ski-ski-school-skier-4066634/" target="_blank" rel="noopener">**here**</a>.
 
-The video used in the Hero section combined the above image with a video by Jorgelina Delmagro from Pixabay:
-https://pixabay.com/videos/ski-snow-holiday-nature-sunset-186843/
-
+The video used in the Hero section combined the above image with a video by Jorgelina Delmagro from Pixabay and can be found <a href="https://pixabay.com/videos/ski-snow-holiday-nature-sunset-186843/" target="_blank" rel="noopener">**here**</a>.
 
 # Acknowledgments
 
