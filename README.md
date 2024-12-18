@@ -429,6 +429,17 @@ Each of the individual HTML pages were tested using the <a href="https://validat
 
 ## Lighthouse Analysis
 
+The Lighthouse tool in Google Chrome's DevTools was used to analyse the homepage of the deployed site, both on mobile view and desktop view.
+
+The results for the **mobile view** were as follows:
+
+![Google Lighthouse analysis on mobile view](assets/images/readme/lighthouse-mobile.jpg)
+
+The results for the **desktop view** were as follows:
+
+![Google Lighthouse analysis on desktop view](assets/images/readme/lighthouse-desktop.jpg)
+
+
 # Deployment
 
 The website was deployed using Github Pages in the early stages of development to allow for testing on multiple devices.
