@@ -376,9 +376,9 @@ A number of bugs were found on the first generation iPad and iPhone (but not for
 - the carousel navigation behaviour on Safari web browsers (the iPhone did not respond at all and the iPhone had strange behaviour with the *Next* button)
 - the scrolling behaviour was not accurate when following navigation links
 
-The first of these bugs was fixed by changing the CSS media query for the hero image so that rather than hiding the image (display: none), it is displayed behind the image. A fade animation is used to prevent an initial flicker before the video starts playing and a -webkit prefix is used for compatability with older browsers.
+The first of these bugs was fixed by changing the CSS media query for the hero image so that rather than hiding the image (display: none), it is displayed behind the video. A fade animation is used to prevent an initial flicker before the video starts playing and a -webkit prefix is used for compatability with older browsers.
 
-The second bug was ignored as this is a bug related to the Bootstrap functionality and only effects very old devices. The carousels could still be navigated but only in the reverse direction.
+The second bug was ignored as this is a bug related to the Bootstrap functionality and only affects very old devices. The carousels could still be navigated (on the 1st generation iPad) but only in the reverse direction.
 
 The third bug was also ignored in favour of the modern CSS approach of using variables (which makes the code easier to maintain). It was judged to be a minor imperfection that affects only the oldest devices and therefore did not warrant changing.
 
