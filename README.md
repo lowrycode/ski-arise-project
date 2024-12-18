@@ -350,7 +350,7 @@ The fonts were sourced from <a href="https://fonts.google.com/" target="_blank" 
 
 The deployed site was manually tested on various devices and web browsers to check that they are fully responsive and consistent in their appearance and functionality. These manual tests were conducted by myself and others.
 
-Form data was checked using the Network Tab in Google Chrome's DevTools.
+Form data was checked using the Network Tab in Google Chrome's DevTools. When it was first deployed to Github Pages, an error occured on form submission due to using the POST method on the form. This was subsequently changed to the GET method so that it could be deployed in Github pages but in reality I would use a POST request to securely send data to a backend server.
 
 The code was also checked using validators and the Lighthouse tool in Google Chrome's DevTools.
 
