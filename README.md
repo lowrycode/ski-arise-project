@@ -332,6 +332,10 @@ Images were optimised for the website by converting to webp format using the <a 
 
 The favicons were produced using <a href="https://favicon.io/" target="_blank" rel="noopener">**favicon.io**</a> from a custom image.
 
+## Video Editing
+
+The hero video was edited from a longer video and an image (both taken from <a href="https://pixabay.com/" target="_blank" rel="noopener">**Pixabay**</a>) using the <a href="https://www.videosoftdev.com/" target="_blank" rel="noopener">**VSDC Video Editor**</a>. Some fade effects were added for smoother transitions and to give the impression of "waking up" (since the company slogan is "Wake up in your dream location").
+
 ## Textual Content
 
 Much of the information included on the website is fictitious (including details of the company and accommodations).
@@ -342,9 +346,11 @@ The fonts were sourced from <a href="https://fonts.google.com/" target="_blank" 
 
 # Testing
 
+
+
 # Deployment
 
-The website was deployed using Github Pages in an early stage of development to allow for testing on multiple devices.
+The website was deployed using Github Pages in the early stages of development to allow for testing on multiple devices.
 
 The following steps were taken to deploy the website using Github Pages:
 1. Within the Github repository, click on **Settings** in the top navigation bar
@@ -364,7 +370,7 @@ To fork this repository:
 
 ![Steps to fork the repository](assets/images/readme/fork.jpg)
 
-Cloning a repository refers to making a copy on your local machine and is typically done after forking.
+**Cloning** a repository refers to making a copy on your local machine and is typically done after forking.
 
 To clone the repository (assuming you already have git installed on your machine):
 1. Navigate to the repository page, click on the **Code** button, ensure the **HTTPS** tab is selected in the dropdown and copy the url
