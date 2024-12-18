@@ -252,7 +252,13 @@ i {
     margin:0;
 }
 
-.package-image-container img:first-child {
+/* .package-image-container img:first-child {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+} */
+
+.package-image-container picture img {
     object-fit: cover;
     height: 100%;
     width: 100%;
