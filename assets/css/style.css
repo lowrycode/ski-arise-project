@@ -250,7 +250,7 @@ i {
 .package-image-container {
     position: relative;
     padding: 0;
-    margin:0;
+    margin: 0;
 }
 
 .package-image-container picture img {
@@ -391,7 +391,7 @@ i {
 }
 
 /* Placeholder text colour for date input and select */
-.custom-form input, 
+.custom-form input,
 .custom-form select {
     color: var(--mid-primary);
 }
@@ -417,6 +417,7 @@ i {
 
 /* Tablet */
 @media screen and (min-width: 768px) {
+
     /* keeps whitespace (e.g. for bootstrap column) but is invisible */
     .custom-md-hidden {
         display: block;
@@ -445,7 +446,7 @@ i {
     #info-accommodation .card {
         height: 585px;
     }
-    
+
     #info-nightlife .card {
         height: 360px;
     }
@@ -459,10 +460,32 @@ i {
         display: block;
     }
 
-    #hero-image {
-        /* Don't show image on larger screens (use video instead) */
-        display: none;
+    @keyframes heroImageFadeIn {
+        from {
+            opacity: 0;
+        }
+    
+        to {
+            opacity: 1;
+        }
     }    
+
+    @-webkit-keyframes heroImageFadeIn {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    #hero-image {
+        /* Used as fall-back image behind video - delay prevents flicker before video loads */
+        opacity: 0;
+        -webkit-animation: heroImageFadeIn 1s ease-in-out forwards;
+        animation: heroImageFadeIn 1s ease-in-out forwards;
+    }
 
     #hero-overlay {
         /* Fit content on mobile and wider screens */
@@ -491,7 +514,7 @@ i {
     #info-accommodation .card {
         height: 590px;
     }
-    
+
     #info-nightlife .card {
         height: 380px;
     }
