@@ -346,7 +346,43 @@ The fonts were sourced from <a href="https://fonts.google.com/" target="_blank" 
 
 # Testing
 
+The deployed site was manually tested on various devices and web browsers to check that they are fully responsive and consistent in their appearance and functionality. These manual tests were conducted by myself and others.
 
+The code was also checked using validators and the Lighthouse tool in Google Chrome's DevTools
+
+## Browser Testing
+
+The following browsers were used during testing:
+- Google Chrome
+- Microsoft Edge
+- Mozilla Firefox
+- Apple Safari
+
+The Safari testing revealed the need for using jpg fallback images since webp format was often not supported. These changes have since been implemented.
+
+## Device testing
+
+A number of different devices were used in testing:
+- Laptops with different screen sizes
+- Various generations of iPads (1st, 8th and 9th generations)
+- Samsung Galaxy tablet
+- Various Android phones
+- Various iPhones (including a 1st generation iPhone 5)
+
+A number of bugs were found on the first generation iPad and iPhone (but not for later generations). These involved:
+- the hero video not playing (which left a blank white space)
+- the carousel navigation behaviour on Safari web browsers (the iPhone did not respond at all and the iPhone had strange behaviour with the *Next* button)
+- the scrolling behaviour was not accurate when following navigation links
+
+The first of these bugs was fixed by changing the CSS media query for the hero image so that rather than hiding the image (display: none), it is displayed behind the image. A fade animation is used to prevent an initial flicker before the video starts playing and a -webkit prefix is used for compatability with older browsers.
+
+The second bug was ignored as this is a bug related to the Bootstrap functionality and only effects very old devices. The carousels could still be navigated but only in the reverse direction.
+
+The third bug was also ignored in favour of the modern CSS approach of using variables (which makes the code easier to maintain). It was judged to be a minor imperfection that affects only the oldest devices and therefore did not warrant changing.
+
+## Code Validation
+
+## Lighthouse Analysis
 
 # Deployment
 
