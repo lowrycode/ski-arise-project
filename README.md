@@ -297,8 +297,10 @@ An Error page could be added so that if a page is not found, the user has an opt
 ## Backend
 
 In reality, a backend system would be needed to allow for
-- form information to be sent via a POST request (currently the GET method is used to make it suitable for deploying on Github)
+- form information to be sent via a POST request (currently the GET method is used to make it suitable for deploying with Github Pages)
 - customer information to be stored in a secure database
+
+This also allows for HTML to be generated dynamically from backend data (e.g. through Flask). This approach would make the code much more scalable and easier to maintain.
 
 ## Additional Content
 
