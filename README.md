@@ -399,29 +399,29 @@ The validator was testing the code against the CSS Level 3 standards and the fon
 Each of the individual HTML pages were tested using the <a href="https://validator.w3.org/" target="_blank" rel="noopener">**W3C Markup Validator**</a>. Here is a summary of the results:
 
 **index.html**
-- **ERROR** - identified that a closing div tag was missing from the FAQ section. **This was corrected**.
-- **WARNING** - questioned whether aria-labels were being used correctly with divs containing five-stars reviews. **No changes made**.
-- **WARNING** - questioned whether articles (popular-package cards) were missing headings but h3 headings are in fact used in the header section of these cards. **No changes made**.
-- **WARNING** - identified sections which didn't contain a heading and suggested these be changed to divs. **These were corrected**.
+- **ERROR** - identified that a closing div tag was missing from the FAQ section. ***This was corrected***.
+- **WARNING** - questioned whether aria-labels were being used correctly with divs containing five-stars reviews. ***No changes made***.
+- **WARNING** - questioned whether articles (popular-package cards) were missing headings but h3 headings are in fact used in the header section of these cards. ***No changes made***.
+- **WARNING** - identified sections which didn't contain a heading and suggested these be changed to divs. ***These were corrected***.
 
 **all-packages.html**
-- **ERROR** - identified **th** opening tags which were paired with **td** closing tags. **These were corrected**.
-- **WARNING** - questioned whether aria-labels were being used correctly with divs containing five-stars reviews. **No changes made**.
-- **WARNING** - identified sections within card footers which didn't contain a heading and suggested these be changed to divs. Although there is some common theme in the information contained, it was judged to be mainly a stylistic grouping. **These were corrected**.
-- **WARNING** - identified sections for packages which didn't contain a heading and suggested these be changed to divs. This was judged to be a valid use of the section element. **No changed made**.
-- **WARNING** - identified sections within the package cards which didn't contain a heading and were more for styling reasons and suggested these be changed to divs. **These were corrected**.
+- **ERROR** - identified **th** opening tags which were paired with **td** closing tags. ***These were corrected***.
+- **WARNING** - questioned whether aria-labels were being used correctly with divs containing five-stars reviews. ***No changes made***.
+- **WARNING** - identified sections within card footers which didn't contain a heading and suggested these be changed to divs. Although there is some common theme in the information contained, it was judged to be mainly a stylistic grouping. ***These were corrected***.
+- **WARNING** - identified sections for packages which didn't contain a heading and suggested these be changed to divs. This was judged to be a valid use of the section element. ***No changed made***.
+- **WARNING** - identified sections within the package cards which didn't contain a heading and were more for styling reasons and suggested these be changed to divs. ***These were corrected***.
 
 **info.html**
-- **ERROR** - identified stray end tags. **These were removed**.
+- **ERROR** - identified stray end tags. ***These were removed***.
 - *NO WARNINGS*
 
 **booking.html**
 - *NO ERRORS*
-- **WARNING** - identified section without heading. On reflection, both the Booking Header section and Booking Form section are more for stylistic separation so were changed to divs.  **Both Sections changed to divs**.
+- **WARNING** - identified section without heading. On reflection, both the Booking Header section and Booking Form section are more for stylistic separation so were changed to divs.  ***Both sections changed to divs***.
 
 **enquiry.html**
 - *NO ERRORS*
-- **WARNING** - identified section without heading. On reflection, both the Enquiry Header section and Enquiry Form section are more for stylistic separation so were changed to divs.  **Both Sections changed to divs**.
+- **WARNING** - identified section without heading. On reflection, both the Enquiry Header section and Enquiry Form section are more for stylistic separation so were changed to divs.  ***Both sections changed to divs***.
 
 **section.html**
 - *NO ERRORS*
