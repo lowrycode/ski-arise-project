@@ -108,7 +108,7 @@ The colours of these icons were chosen to enhance their meaning. For example, th
 
 ## 7. Performance
 
-To ensure that the pages load quickly, all images used on the deployed website were converted to webp format other than those requiring transparency (such as the brand logo and recommendation icons) which were scaled to appropriately sized png files.
+To ensure that the pages load quickly, all images used on the deployed website were converted to webp format (with jpg fallback) other than those requiring transparency (such as the brand logo and recommendation icons) which were scaled to appropriately sized png files.
 
 A suitable compromise was reached between the resolution of the hero video and its file size to optimise performance.
 
@@ -166,7 +166,7 @@ This section was placed immediately after the hero section as it closely links w
 
 ![Popular Package section on tablet screens](assets/images/readme/popular-packages-section.jpg)
 
-The layout of this section changes significantly on different screen sizes. The image above shows how it displays on tablet screens.
+The section is highly responsive and the layout changes significantly on different screen sizes. The image above shows how it displays on tablet screens.
 
 Headline details about selected packages are presented alongside buttons which take the user to specific sections of the **All Packages** page where further details can be found.
 
@@ -221,9 +221,9 @@ Testimonials from all of the key target groups are included (e.g. families, snow
 
 ## All-Packages Page
 
-This page allows users to browse all the package holidays that the company offers. Users arrive at this page either from the top navigation menu or one of the buttons in the Popular Package section of the homepage.
+This page allows users to browse all the package holidays that the company offers. Users arrive at this page either from the top navigation menu or from one of the buttons in the Popular Package section of the homepage.
 
-At the top of the page, users see the main page heading with a supporting description so that users know where they are on the site and what to expect to find on this page. The icon keys are positioned immediately below this.
+At the top of the page, users see the main page heading with a supporting description so that they know where they are on the site and what to expect to find on this page. The icon keys are positioned immediately below this.
 
 Information about each of the packages is summarised on a card. It includes further information about the resort and accommodation alongside supporting images.
 
@@ -310,7 +310,7 @@ The company may decide to continue to expand their business strategy to target l
 
 ## Website Development
 
-The website mainly uses **HTML**, **CSS** and **BootStrap** but also includes the default **Bootstrap Javascript** file to enable interactive elements (e.g. carousels).
+The website mainly uses **HTML**, **CSS** and **BootStrap Stylesheets** but also includes the default **Bootstrap Javascript** file to enable interactive elements (e.g. carousels).
 
 Most of the code was written in a local copy of **Visual Studio Code** to take advantage of the *Live Preview* extension but **Gitpod** (a cloud based environment) was used in the early stages of development, and for sharing the code in mentor meetings and a tutoring session.
 
