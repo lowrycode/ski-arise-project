@@ -6,7 +6,7 @@ The [**Project Planning**](project_planning.md) document outlines the business g
 
 You can visit the deployed website <a href="https://lowrycode.github.io/ski-arise-project/index.html" target="_blank" rel="noopener">**here**</a>.
  
-![SkiArise Responsive Design](assets/images/readme/responsive.jpg)
+![SkiArise Responsive Design](readme-images/responsive.jpg)
 
 # User Experience Design
 The following features contribute to a good User Experience (UX):
@@ -76,7 +76,7 @@ Since the website was primarily seeking to attract customers to book a ski holid
 ### Colour Palette
 Colours were carefully selected to complement the images and for good visual contrast.
 
-![Colour palette](assets/images/readme/colour-palette.jpg)
+![Colour palette](readme-images/colour-palette.jpg)
 
 ### Typography
 
@@ -88,13 +88,13 @@ For the body text, Cabin (with a fallback to sans-serif) was used due to its hig
 
 The overlay text in the hero image used Merriweather since this was the closest match to the fonts used in the printed advertisements of the company (that appear in the photo of the shop window in the About Us section of the homepage).
 
-![Publicity posters showing in the shop window](assets/images/shop-front.webp)
+![Publicity posters showing in the shop window](readme-images/shop-front.jpg)
 
 ### Brand logo
 
 When designing the brand logo, papyrus font was used due to its smooth flowing style and rough edges, reminiscent of a ski slope. The capital "A" was edited (made thicker along the right edge) to look more like a mountain slope and the following "r" was replaced with an illustration of a skier roughly taking the posture of this letter.
 
-![SkiArise brand logo](assets/images/readme/brand-logo-black-bg.jpg)
+![SkiArise brand logo](readme-images/brand-logo-black-bg.jpg)
 
 ### Icons
 
@@ -102,7 +102,7 @@ The website uses icons to show which slopes are available at a given resort and 
 
 The icons were designed to be intuitive so that their meaning is immediately clear for the user but this key is shown at the top of the All Packages page to alert users to their purpose.
 
-![Key for the icons shown at the top of the All Packages page](assets/images/readme/icons-key.jpg)
+![Key for the icons shown at the top of the All Packages page](readme-images/icons-key.jpg)
 
 The colours of these icons were chosen to enhance their meaning. For example, the beginners icon is green because they will want to access the easiest slopes (which are categorised in Europe by the colour green). Using different colours for each icon also makes it easier to spot when browsing the packages.
 
@@ -122,11 +122,11 @@ The following features are found on all pages of the website.
 
 On larger screen sizes (laptop and desktop), the full navigation menu is shown.
 
-![Navigation bar on larger screens](assets/images/readme/nav-bar-full.jpg)
+![Navigation bar on larger screens](readme-images/nav-bar-full.jpg)
 
 On smaller screen sizes (mobile and tablet devices), the navigation menu is hidden and a hamburger icon is shown instead. The menu can be expanded and collapsed by touching / clicking on the hamburger icon.
 
-![Navigation bar on smaller screens](assets/images/readme/nav-bar-collapsible.jpg)
+![Navigation bar on smaller screens](readme-images/nav-bar-collapsible.jpg)
 
 The items are listed in the order of priority that the users are likely to want to visit them and the CTA button is also included here. Clicking on the brand logo provides an alternative method for navigating to the homepage - this may be preferred by mobile and tablet users who would otherwise have to expand the navigation menu.
 
@@ -138,7 +138,7 @@ The default behaviour of the Bootstrap Navbar is retained (i.e. the hover effect
 
 This section appears in the footer of every page of the website. It includes the primary CTA ("Book Your Holiday") button but also a secondary CTA ("Make An Enquiry") button. The second CTA button is to encourage users who are not yet ready to commit to buying a holiday to connect with the company.
 
-![Contact Us footer section ](assets/images/readme/contact-us-footer.jpg)
+![Contact Us footer section ](readme-images/contact-us-footer.jpg)
 
 There are also links to the social media pages for the company which open in a new tab (to avoid taking users away from the main site). Since the company does not exist, these links currently just direct to the homepages of each website. The rel="noopener" attribute is used for increased security when navigating to these sites.
 
@@ -146,7 +146,7 @@ There are also links to the social media pages for the company which open in a n
 
 On every page of the site, adjacent sections have a subtly different background colour.
 
-![Adjacent sections on the Info page with different background colours](assets/images/readme/alternating-backgrounds.jpg)
+![Adjacent sections on the Info page with different background colours](readme-images/alternating-backgrounds.jpg)
 
 This makes it easier for the users to distinguish between different sections of the page as well as improving the aesthetics of the website.
 
@@ -156,7 +156,7 @@ This makes it easier for the users to distinguish between different sections of 
 
 To grab the attention of users when they first arrive at the site, they are presented with a short action video of people skiing which transforms into a hero image of an idyllic ski scene. The decision was made to bypass the video on smaller mobile devices and replace it with the hero image for a better experience for mobile users.
 
-![Hero section shows a static image for mobile devices but a video for tablets and larger screens](assets/images/readme/responsive-hero.jpg)
+![Hero section shows a static image for mobile devices but a video for tablets and larger screens](readme-images/responsive-hero.jpg)
 
 The overlay text includes the company logo and advertising slogan in similar formatting to how it appears on their printed advertisements.
 
@@ -164,7 +164,7 @@ The overlay text includes the company logo and advertising slogan in similar for
 
 This section was placed immediately after the hero section as it closely links with the primary purpose of the site (to showcase best products and gain new customers).
 
-![Popular Package section on tablet screens](assets/images/readme/popular-packages-section.jpg)
+![Popular Package section on tablet screens](readme-images/popular-packages-section.jpg)
 
 The section is highly responsive and the layout changes significantly on different screen sizes. The image above shows how it displays on tablet screens.
 
@@ -178,7 +178,7 @@ Images are used to increase emotional engagement. The 5 star ratings are include
 
 This section logically follows the previous section as it allows users to quickly find the information they are looking for.
 
-![Learn More section on tablet screens](assets/images/readme/learn-more-section.jpg)
+![Learn More section on tablet screens](readme-images/learn-more-section.jpg)
 
 Each card includes a key word and related image to grab the attention of the user. On hovering over the card, it expands slightly to indicate to the user that it is clickable. On touching / clicking on a card, the user is taken to the relevant section of the **Info** page.
 
@@ -190,7 +190,7 @@ This section logically follows on from the Learn More section and answers specif
 
 The [**Project Planning**](project_planning.md) document identifies those who have never been on a ski holiday before as a target audience in the company's business strategy. This section is primarily aimed at this group.
 
-![FAQ section with a narrow centralised container on larger screen sizes](assets/images/readme/faq-section.jpg)
+![FAQ section with a narrow centralised container on larger screen sizes](readme-images/faq-section.jpg)
 
 
 All answers are hidden by default which allows users to easily skip over this section if they wish. Answers are easily revealed by clicking on either the caret symbol (down arrow) or question text. 
@@ -203,7 +203,7 @@ On larger screen sizes, the width of the container is made narrower than the def
 
 One of the key business goals stated in the [**Project Planning**](project_planning.md) document is to *"Gain the trust of potential customers by demonstrating their legitimacy as a company, their knowledgability / contacts in the industry and their care for customers"*. This is therefore a key section of the website and why it can be accessed directly from the top navigation menu.
 
-![About section](assets/images/readme/about-section.jpg)
+![About section](readme-images/about-section.jpg)
 
 The section includes information which highlights their years of experience and contacts in the industry as well as showcasing the awards that the company has received.
 
@@ -213,7 +213,7 @@ Images of the team and the shop are included to further demonstrate the credibil
 
 This section also seeks to increase the trust of potential customers and shows comments from happy customers rotating on a carousel.
 
-![Testimonials section](assets/images/readme/testimonials-section.jpg)
+![Testimonials section](readme-images/testimonials-section.jpg)
 
 The navigation buttons remain hidden until the mouse hovers over the quote (or it is touched on a mobile or tablet device) to give the user control while keeping the section clean and visually appealing.
 
@@ -227,17 +227,17 @@ At the top of the page, users see the main page heading with a supporting descri
 
 Information about each of the packages is summarised on a card. It includes further information about the resort and accommodation alongside supporting images.
 
-![A card on the All Packages page as viewed on a laptop](assets/images/readme/package-info-card-laptop.jpg)
+![A card on the All Packages page as viewed on a laptop](readme-images/package-info-card-laptop.jpg)
 
 A custom grid system was used here (rather than just using the regular Bootstrap grid system) to allow for greater control in the positioning of the "tick lists" on different screen sizes. On larger screens, these lists are positioned with the other text to the right of the images whereas on smaller screens they are positioned below the image.
 
-![A card on the All Packages page as viewed on a tablet](assets/images/readme/package-info-card-tablet.jpg)
+![A card on the All Packages page as viewed on a tablet](readme-images/package-info-card-tablet.jpg)
 
 ## Info Page
 
 This page provides users with more information about the packages and ski holidays in general. Users arrive at this page either from the top navigation menu or by clicking on one of the cards in the Learn More section of the homepage.
 
-![The top of the Info page](assets/images/readme/info-page.jpg)
+![The top of the Info page](readme-images/info-page.jpg)
 
 The main purpose of the page is to engage the different types of users, give them confidence that their requirements are understood by the company and that the packages cater well for these requirements. It also reinforces the purpose of the recommendation icons.
 
@@ -245,7 +245,7 @@ The main purpose of the page is to engage the different types of users, give the
 
 When users click on the primary CTA button ("Book Your Holiday") they are directed to this page. Here they can fill in a form to express interest in one of the packages. 
 
-![The Booking page](assets/images/readme/booking-page.jpg)
+![The Booking page](readme-images/booking-page.jpg)
 
 Rather than paying for the holiday at this stage, the form is intended to be the start of the process where users can outline any specific requirements or preferences they have so that the exact details can be later discussed with a member of the team and the package tailored to their requirements.
 
@@ -261,7 +261,7 @@ Notice the changed appearance of the CTA button in the navigation bar (and foote
 
 When users click on the secondary CTA button ("Make An Enquiry") they are directed to this page. Here they can fill in a form leaving their question, contact details, preferred method of communication and optionally opt-in to receive news of special offers.
 
-![The Enquiry page](assets/images/readme/enquiry-page.jpg)
+![The Enquiry page](readme-images/enquiry-page.jpg)
 
 The purpose of this page is to encourage users who are reluctant to express interest in buying a holiday to connect with the company.
 
@@ -273,7 +273,7 @@ Notice the changed appearance of the "Make An Enquiry" button in the footer. Thi
 
 On successful submission of one of the forms, the user is directed to the Success page. This reassures the user that their information has been sent successfully to the company.
 
-![The Success page](assets/images/readme/success-page.jpg)
+![The Success page](readme-images/success-page.jpg)
 
 There is a button to return to the homepage and the top navigation bar also works as normal for users who prefer this.
 
@@ -392,7 +392,7 @@ The third bug was also ignored in favour of the modern CSS approach of using var
 
 When the custom stylesheet was tested using the <a href="https://jigsaw.w3.org/css-validator/" target="_blank" rel="noopener">**W3C CSS Jigsaw Validator**</a>, it raised the following errors:
 
-![CSS Validation Results from W3C CSS Jigsaw Validator](assets/images/readme/css-validator.jpg)
+![CSS Validation Results from W3C CSS Jigsaw Validator](readme-images/css-validator.jpg)
 
 The validator was testing the code against the CSS Level 3 standards and the font-optical-sizing property was introduced in Level 4 (see <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-optical-sizing" target="_blank" rel="noopener">**here**</a>). Since the property is widely available in modern browsers and doesn't adversely affect formatting in browsers which do not support the property I have decided not to remove them from the stylesheet.
 
@@ -435,11 +435,11 @@ The Lighthouse tool in Google Chrome's DevTools was used to analyse the homepage
 
 The results for the **mobile view** were as follows:
 
-![Google Lighthouse analysis on mobile view](assets/images/readme/lighthouse-mobile.jpg)
+![Google Lighthouse analysis on mobile view](readme-images/lighthouse-mobile.jpg)
 
 The results for the **desktop view** were as follows:
 
-![Google Lighthouse analysis on desktop view](assets/images/readme/lighthouse-desktop.jpg)
+![Google Lighthouse analysis on desktop view](readme-images/lighthouse-desktop.jpg)
 
 
 # Deployment
@@ -452,7 +452,7 @@ The following steps were taken to deploy the website using Github Pages:
 3. In the Source section, choose **Deploy from a branch**
 4. In the branch section, choose **main** (or whichever branch you wish to deploy) and click **Save**
 
-![Steps to deploy the website](assets/images/readme/deployment.jpg)
+![Steps to deploy the website](readme-images/deployment.jpg)
 
 # Forking and Cloning
 
@@ -462,7 +462,7 @@ To fork this repository:
 1. Log in to your Github account
 2. Navigate to the repository page, click the caret (down arrow) next to the fork button and choose **Create a new fork**.
 
-![Steps to fork the repository](assets/images/readme/fork.jpg)
+![Steps to fork the repository](readme-images/fork.jpg)
 
 **Cloning** a repository refers to making a copy on your local machine and is typically done after forking.
 
@@ -472,7 +472,7 @@ To clone the repository (assuming you already have git installed on your machine
 3. Open up a terminal window (e.g. **Git Bash** or **Command Prompt** on windows) and navigate to the new directory
 4. Type **git clone [url]** (replacing [url] with the url address from step 1) and press Enter
 
-![Steps to clone the repository](assets/images/readme/clone.jpg)
+![Steps to clone the repository](readme-images/clone.jpg)
 
 # Credits
 
