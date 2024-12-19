@@ -306,6 +306,8 @@ This also allows for HTML to be generated dynamically from backend data (e.g. th
 
 It would be natural to show multiple images for each ski resort using a carousel. This was not done due to the time taken to generate suitable images but it would make for a better user experience.
 
+The info page is lacking images in the **Beginners** and **Slopes** sections. These could be added to increase user engagement with these sections.
+
 The company may decide to continue to expand their business strategy to target larger group bookings. Therefore, the remaining (could-have) User Stories could be implemented.
 
 # Technologies Used
