@@ -390,11 +390,11 @@ The third bug was also ignored in favour of the modern CSS approach of using var
 
 ### CSS
 
-When the custom stylesheet was tested using the <a href="https://jigsaw.w3.org/css-validator/" target="_blank" rel="noopener">**W3C CSS Jigsaw Validator**</a>, it raised the following errors:
+When the custom stylesheet was tested using the <a href="https://jigsaw.w3.org/css-validator/" target="_blank" rel="noopener">**W3C CSS Jigsaw Validator**</a>, it initially raised errors about not recognising the font-optical-sizing property (since the validator was testing the code against the CSS Level 3 standards and the font-optical-sizing property was introduced in Level 4 - see <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-optical-sizing" target="_blank" rel="noopener">**here**</a>).
+
+Once these font-optical-sizing statements were removed from the stylesheet, it passed the validation.
 
 ![CSS Validation Results from W3C CSS Jigsaw Validator](readme-images/css-validator.jpg)
-
-The validator was testing the code against the CSS Level 3 standards and the font-optical-sizing property was introduced in Level 4 (see <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-optical-sizing" target="_blank" rel="noopener">**here**</a>). Since the property is widely available in modern browsers and doesn't adversely affect formatting in browsers which do not support the property I have decided not to remove them from the stylesheet.
 
 ### HTML
 
@@ -428,6 +428,8 @@ Each of the individual HTML pages were tested using the <a href="https://validat
 **section.html**
 - *NO ERRORS*
 - *NO WARNINGS*
+
+Therefore, all html pages now pass the validation checks without errors.
 
 ## Lighthouse Analysis
 
