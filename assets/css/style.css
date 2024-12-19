@@ -232,6 +232,13 @@ i {
     z-index: -2;
 }
 
+#hero .container {
+    /* Ensures hero-overlay is well positioned on very large screens */
+    height: inherit;
+    width: inherit;
+    position: relative;
+}
+
 #hero-overlay {
     opacity: 0;
     position: absolute;
